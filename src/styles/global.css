@@ -7,3 +7,10 @@
     color: white;
   }
 }
+
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
