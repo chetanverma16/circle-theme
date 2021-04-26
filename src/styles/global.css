@@ -6,6 +6,9 @@
   a {
     color: white;
   }
+  body {
+    background-color: black;
+  }
 }
 
 @layer utilities {

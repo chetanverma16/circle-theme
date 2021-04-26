@@ -14,11 +14,13 @@ module.exports = {
       purple: "#a18cd1",
       pink: "#FBC2EB",
       white: colors.white,
+      lightblack: "#141414",
       gray: colors.gray,
       transparent: colors.transparent,
     },
   },
   variants: {
+    transitionProperty: ["hover", "focus"],
     extend: {
       transform: ["hover", "focus", "active"],
     },
