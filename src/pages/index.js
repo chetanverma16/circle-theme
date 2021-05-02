@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Header from "../components/Home/header"
 import FeatureSection from "../components/Home/featureSection"
 import Testimonial from "../components/Home/testimonial"
+import Pricing from "../components/Home/pricing"
 
 const IndexPage = () => (
   <div className="h-auto w-screen">
@@ -12,6 +13,7 @@ const IndexPage = () => (
       <Header></Header>
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
+      <Pricing></Pricing>
     </Layout>
   </div>
 )

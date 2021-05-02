@@ -2,7 +2,7 @@ import React from "react"
 
 const Testimonial = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 mt-10 h-60">
+    <div className="max-w-7xl mx-auto px-6 mt-10 h-auto mb-10">
       <div className="w-full flex flex-row justify-between align-middle bg-lightblack p-12 rounded-lg">
         <div className="w-3/4">
           <div className="font-poppins text-white font-semibold text-2xl leading-10">
@@ -21,7 +21,7 @@ const Testimonial = () => {
             </h1>
           </div>
         </div>
-        <div className="w-1/4 h-96 overflow-hidden flex align-middle justify-center">
+        <div className="w-1/4 overflow-hidden flex align-middle justify-center">
           <img
             className="rounded-xl w-auto h-auto"
             src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"

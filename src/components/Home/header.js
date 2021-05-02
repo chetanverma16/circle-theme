@@ -19,7 +19,11 @@ const Header = () => {
       </h1>
       <div className="flex-row mt-10">
         <Input placeholder="email."></Input>
-        <Button title="Request Access"></Button>
+        <Button
+          colorClass="bg-gradient-to-r from-pink to-purple "
+          title="Request Access"
+          textColor="text-white"
+        ></Button>
       </div>
       <div className="max-w-7xl mx-auto mt-10">
         <div className="w-full h-auto overflow-hidden rounded-xl">
