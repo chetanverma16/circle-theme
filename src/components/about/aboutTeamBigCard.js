@@ -3,7 +3,7 @@ import React from "react"
 const AboutTeamBigCard = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
-      <div className="bg-lightblack w-full h-full flex flex-row justify-between">
+      <div className="bg-lightblack w-full h-full flex flex-row justify-between rounded-xl">
         <img
           className="w-3/4 object-cover h-96 rounded-l-lg"
           src="https://images.unsplash.com/photo-1528241725452-5a0eff84abe3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
