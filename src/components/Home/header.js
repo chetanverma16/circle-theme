@@ -23,6 +23,7 @@ const Header = () => {
           colorClass="bg-gradient-to-r from-pink to-purple "
           title="Request Access"
           textColor="text-white"
+          marginClass="ml-5"
         ></Button>
       </div>
       <div className="max-w-7xl mx-auto mt-10">

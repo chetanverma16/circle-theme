@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "../Atoms/button"
 
-const Pricing = () => {
+const PricingMain = () => {
   return (
     <div className="max-w-7xl mx-auto px-6 h-screen">
       <div className="w-full bg-gradient-to-r from-pink to-purple flex items-center justify-center h-screen rounded-xl">
@@ -45,4 +45,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default PricingMain
