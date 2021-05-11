@@ -1,6 +1,8 @@
 import React from "react"
 import Input from "../Atoms/input"
 import Button from "../Atoms/button"
+import Fade from "react-reveal/Fade"
+
 const BlogsContainer = () => {
   const blogData = [
     {
@@ -69,19 +71,24 @@ const BlogsContainer = () => {
   ]
   return (
     <div className="max-w-7xl mx-auto mt-10 text-white">
-      <div className="grid grid-cols-3 gap-4">
-        {blogData.map(blog => (
-          <div>
-            <div className="w-96 h-72 overflow-hidden rounded-xl">
-              <img className="h-full w-full object-cover" src={blog.img}></img>
+      <Fade bottom cascade>
+        <div className="grid grid-cols-3 gap-4">
+          {blogData.map(blog => (
+            <div>
+              <div className="w-96 h-72 overflow-hidden rounded-xl">
+                <img
+                  className="h-full w-full object-cover"
+                  src={blog.img}
+                ></img>
+              </div>
+              <h1 className="text-3xl mt-2 font-poppins font-bold">
+                {blog.heading}
+              </h1>
+              <p className="text-sm opacity-50 mt-2">{blog.para}</p>
             </div>
-            <h1 className="text-3xl mt-2 font-poppins font-bold">
-              {blog.heading}
-            </h1>
-            <p className="text-sm opacity-50 mt-2">{blog.para}</p>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </Fade>
       <div className="w-full h-72 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
         <h1 className="font-poppins font-bold text-3xl">Stay in the loop</h1>
         <h2 className="text-lg mt-2 opacity-50">
