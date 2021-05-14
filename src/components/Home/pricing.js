@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 const PricingMain = () => {
   return (
-    <div className="max-w-7xl mx-auto px-6 h-screen">
+    <div className="max-w-7xl mx-auto px-6 h-screen xxs:hidden xs:hidden sm:hidden lg:block">
       <Fade bottom>
         <div className="w-full bg-gradient-to-r from-pink to-purple flex items-center justify-center h-screen rounded-xl">
           <div className="flex w-9/12 bg-white h-auto rounded-xl">
