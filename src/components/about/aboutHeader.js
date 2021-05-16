@@ -10,7 +10,7 @@ const AboutHeader = () => {
         </div>
         <div className="mt-5">
           <span className="text-white text-sm opacity-50">About us</span>
-          <h1 className="text-white text-7xl font-poppins font-semibold leading-snug">
+          <h1 className="text-white text-7xl font-poppins font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-7xl">
             We're on a mission to reinvent web, UX, product, and content design
             - by making it visual.if that sounds good to you, you should apply.
           </h1>

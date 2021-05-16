@@ -72,10 +72,10 @@ const BlogsContainer = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10 text-white">
       <Fade bottom cascade>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {blogData.map(blog => (
             <div>
-              <div className="w-96 h-72 overflow-hidden rounded-xl">
+              <div className="w-96 h-72 overflow-hidden rounded-xl xxs:w-full sm:w-96">
                 <img
                   className="h-full w-full object-cover"
                   src={blog.img}
