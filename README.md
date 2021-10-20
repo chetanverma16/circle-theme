@@ -1,7 +1,7 @@
 
 # React + Tailwind = ❤️
 
-## A Powerful theme for powerful businesses for free 💸.
+## A Powerful theme for powerful Thinkers for free 💸.
 
 To view a live example, **[click here](https://circletheme.netlify.app/)**.
 
