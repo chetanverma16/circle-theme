@@ -3,6 +3,9 @@
 
 ## A Powerful theme for powerful Thinkers for free 💸.
 
+![Screenshot 2021-10-20 at 3 26 18 PM](https://user-images.githubusercontent.com/16558205/138075716-81961cf1-fad6-4012-9e24-2e7ee24ee227.png)
+
+
 To view a live example, **[click here](https://circletheme.netlify.app/)**.
 
 Feel free to use it as-is or customize it as much as you want.
