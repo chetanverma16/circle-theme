@@ -71,7 +71,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 ## For the Future
 If you have awesome ideas on your mind,
-please don't hesitate to open a [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
+please don't hesitate to open a [pull request](https://github.com/chetanverma16/circle-theme/pulls).
 
 ## Thanks
 If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
