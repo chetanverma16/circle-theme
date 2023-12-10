@@ -9,12 +9,43 @@
   body {
     background-color: black;
   }
+  /* Header Component */
+
+  .bg-image {
+    background-image: url("../images/server-main-page.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    filter: brightness(0.8) blur(1px);
+    height: 80%;
+    z-index: -1;
+  }
+  .bg-image:after {
+    background: linear-gradient(90deg,rgba(26, 30, 34, .7),rgba(0,0,0,.8));
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
 }
 
 @layer utilities {
+  .bg-gradient-header {
+    background: linear-gradient(to right, #8F0AB1, #ED8C32);
+  }
   .text-gradient-header {
     background: linear-gradient(to right, #8F0AB1, #ED8C32);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
+
+
