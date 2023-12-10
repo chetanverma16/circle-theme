@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import logoImg from "../images/logo.svg"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <a className="text-white flex-shrink-0 font-poppins" href="/">
-              Circle
+              <img className="w-full max-h-screen" src={logoImg} alt="Header"></img>
             </a>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
@@ -25,7 +26,7 @@ const Navbar = () => {
                 >
                   Blog
                 </Link>
-                <Link
+                {/* <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/pricing"
                 >
@@ -36,7 +37,7 @@ const Navbar = () => {
                   to="/careers"
                 >
                   Careers
-                </Link>
+                </Link> */}
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/contact"
