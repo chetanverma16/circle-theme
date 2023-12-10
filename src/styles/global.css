@@ -12,7 +12,8 @@
 }
 
 @layer utilities {
-  .text-gradient {
+  .text-gradient-header {
+    background: linear-gradient(to right, #8F0AB1, #ED8C32);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
