@@ -11,6 +11,7 @@ import FeaturedBlog from "../components/FeaturedBlog"
 const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
+      <div className="bg-image" />
       <Header></Header>
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
