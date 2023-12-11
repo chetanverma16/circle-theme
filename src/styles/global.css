@@ -20,7 +20,7 @@
     top: 0%;
     width: 100%;
     filter: brightness(0.8) blur(1px);
-    height: 80%;
+    height: 660px;
     z-index: -1;
   }
   .bg-image:after {
@@ -35,6 +35,31 @@
     width: 100%;
     z-index: 3;
 }
+
+
+/* For tablet devices */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .bg-image {
+    height: 630px;
+    /* Add other styles as needed */
+  }
+}
+
+
+/* For desktop devices */
+@media (min-width: 1025px) {
+  .bg-image {
+    height: 700px;
+    /* Add other styles as needed */
+  }
+}
+
+/* FeatureSection Component */
+  .service-card:hover {/* For mobile devices */
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg,rgba(26, 30, 34, .7),rgba(0,0,0,.8));
+  }
 }
 
 @layer utilities {
