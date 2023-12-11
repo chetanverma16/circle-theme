@@ -19,6 +19,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {

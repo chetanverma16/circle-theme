@@ -14,7 +14,7 @@ const Footer = () => {
     },
     {
       title: "About Us",
-      details: ["Our Story", "Mission & Vision", "Leadership Team"],
+      details: ["Our Story", "Core Values", "Leadership Team"],
     },
     {
       title: "Resources",
