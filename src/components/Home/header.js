@@ -18,7 +18,7 @@ const Header = () => {
               </span>
             </h1>
             <h2 className="text-white font-poppins opacity-80 font-medium text-base xxs:text-base xs:text-lg sm:text-lg md:text-lg lg:text-lg 2xl:text-xl">
-              We deliver premium creative solution to your tech problems
+              We deliver premium creative solutions to your technology needs.
             </h2>
           </div>
         </Fade>
