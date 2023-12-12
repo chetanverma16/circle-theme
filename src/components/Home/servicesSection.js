@@ -30,7 +30,7 @@ const ServicesSection = () => {
           <div>
             <Slider {...settings}>
               {/* <!-- Grid cell 1 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Angular}
                   alt="Angular Logo"
@@ -38,7 +38,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 2 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Aws}
                   alt="Aws Logo"
@@ -46,7 +46,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 3 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Cloud}
                   alt="Google Cloud Logo"
@@ -54,7 +54,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 4 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Nodejs}
                   alt="Node.js Logo"
@@ -62,7 +62,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 5 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Python}
                   alt="Python Logo"
@@ -70,7 +70,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 6 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={django}
                   alt="django Logo"
@@ -78,7 +78,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 7 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={Reactjs}
                   alt="React Logo"
@@ -86,7 +86,7 @@ const ServicesSection = () => {
                 />
               </div>
               {/* <!-- Grid cell 8 --> */}
-              <div className="w-full h-40 flex justify-center items-center border-r border-gray-800 p-8">
+              <div className="w-full h-24 flex justify-center items-center p-8">
                 <img
                   src={ReactNative}
                   alt="ReactNative Logo"
