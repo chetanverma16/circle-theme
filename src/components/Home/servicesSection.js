@@ -14,14 +14,18 @@ const ServicesSection = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
     accessibility: false,
     autoplaySpeed: 500,
     cssEase: "linear",
     arrows: false,
+    slidesToShow: 3, // number of slides to show
+    slidesToScroll: 1, // number of slides to scroll
+    draggable: false, // makes slides not draggable
+    swipe: false, // disables swipe functionality
+    touchMove: false, // disables touch move
+    pauseOnHover: false // does not pause on hover
   }
   return (
     <>
