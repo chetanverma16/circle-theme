@@ -7,16 +7,16 @@ import FeatureSection from "../components/Home/featureSection"
 import Testimonial from "../components/Home/testimonial"
 import Pricing from "../components/Home/pricing"
 import FeaturedBlog from "../components/FeaturedBlog"
-import ServicesSection from "../components/Home/servicesSection"
+import TechSection from "../components/Home/techSection"
 
 const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Header></Header>
-      <ServicesSection></ServicesSection>
+      <TechSection></TechSection>
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
-      <Pricing></Pricing>
+      {/* <Pricing></Pricing> */}
       <FeaturedBlog></FeaturedBlog>
     </Layout>
   </div>

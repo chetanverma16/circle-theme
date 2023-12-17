@@ -1,5 +1,16 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import { Navigation } from 'swiper/modules';
+import Customer from "../../images/customer.svg"
+import Innovation from "../../images/innovation.svg"
+import Scalability from "../../images/scalability.svg"
+import Security from "../../images/security.svg"
+import Talent from "../../images/talent.svg"
+import Tailor from "../../images/tailor.svg"
 
 const FeatureSection = () => {
   return (
@@ -38,56 +49,162 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
           <div className="bg-lightblack p-8 rounded-xl service-card ">
-            <h1 className="text-white text-2xl">
-              Web Development
-            </h1>
+            <h1 className="text-white text-2xl">Web / Mobile Development</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Elevating MVPs to transformative digital experiences.
+              Precision-engineered software for your industry's needs.
             </p>
           </div>
           <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">
-              Custom Software Development
-            </h1>
+            <h1 className="text-white text-2xl">Artificial Intelligence</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Precision-engineered software for your industry's needs.
+              Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
+              Solutions
             </p>
           </div>
           <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">
-              Team Augmentation
-            </h1>
+            <h1 className="text-white text-2xl">AR & VR</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Our expert developers seamlessly integrate with your operations, on-site or remotely.
+              Beyond Reality, Transforming Experiences with Advanced AR & VR
+              Technologies
             </p>
           </div>
           <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">
-              Audit & IT Consulting
-            </h1>
+            <h1 className="text-white text-2xl">Team Augmentation</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Targeted project analysis for informed, strategic IT decisions.
+              Our expert developers seamlessly integrate with your operations,
+              on-site or remotely.
             </p>
           </div>
           <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">
-              Mobile Development
-            </h1>
+            <h1 className="text-white text-2xl">Audit & IT Consulting</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Exceptional iOS and Android apps designed to captivate.
+              Targeted project analysis for informed, strategic IT decisions.
             </p>
           </div>
+
           <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">
-              Product Design
-            </h1>
+            <h1 className="text-white text-2xl">Digital Presence Management</h1>
             <p className="mt-5 text-white opacity-50 text-lg">
-            Intuitive designs that engage and delight users.
+              Intuitive designs that engage and delight users.
             </p>
           </div>
         </div>
       </Fade>
       <Fade bottom cascade>
+        <div className="mt-24 px-8">
+          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
+            Projects
+          </h1>
+          <h2 className="text-white text-lg mt-5 opacity-50">
+            Turning dreams into reality
+          </h2>
+        </div>
+      </Fade>
+      <Fade bottom cascade>
+        <Swiper
+          style={{
+            '--swiper-navigation-color': '#fff',
+            '--swiper-pagination-color': '#fff',
+          }}
+          zoom={true}
+          slidesPerView={3}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Navigation]}
+          className="relative"
+        >
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 1</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 2</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 3</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 4</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 5</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 6</SwiperSlide>
+          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 7</SwiperSlide>
+        </Swiper>
+      </Fade>
+      <Fade bottom cascade>
+        <div className="mt-24 px-8">
+          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
+            Why Techfi?
+          </h1>
+          <h2 className="text-white text-lg mt-5 opacity-50">
+            Why us when there are so many other options?
+          </h2>
+        </div>
+      </Fade>
+      <Fade bottom cascade>
+        <div className="mt-10 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="p-8 service-card ">
+            <img src={Innovation} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">
+              Innovation at the Forefront
+            </h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              We don't just keep up; we set the pace. With a keen eye on the
+              horizon, we anticipate and embrace the dynamic changes in
+              technology, ensuring that our solutions are not just current but
+              future-ready.
+            </p>
+          </div>
+          <div className="p-8 service-card">
+            <img src={Customer} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">
+              Customer Success-Centric
+            </h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              Your goals are our mission. We dive deep into understanding your
+              needs, ensuring that every solution we provide is aligned with
+              your success metrics, making your victory our victory.
+            </p>
+          </div>
+          <div className="p-8 service-card">
+            <img src={Tailor} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">
+              Tailor-Made Expertise
+            </h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              Like a bespoke suit, our services are crafted to fit your unique
+              needs. We listen, we personalize, we deliver IT solutions that are
+              as individual as your business.
+            </p>
+          </div>
+          <div className="p-8 service-card">
+            <img src={Talent} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">Talent Haven</h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              We are a crucible for top-tier tech talent. Our team is not just
+              skilled; they're passionate professionals who thrive on innovation
+              and excellence.
+            </p>
+          </div>
+          <div className="p-8 service-card">
+            <img src={Scalability} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">
+              Scalability Assured
+            </h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              As your business grows, so do our solutions. We architect IT
+              services that flex and scale to meet the expanding needs of your
+              enterprise, ensuring seamless evolution.
+            </p>
+          </div>
+          <div className="p-8 service-card">
+            <img src={Security} alt="reason" className="w-14 pb-5" />
+            <h1 className="text-white text-2xl font-semibold">
+              Guardians of Security
+            </h1>
+            <p className="mt-5 text-white opacity-50 text-lg">
+              In the digital realm, security is paramount. We protect your
+              assets with state-of-the-art security protocols, guarding your
+              business against threats, so you can operate with peace of mind.
+            </p>
+          </div>
+        </div>
+      </Fade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 px-8">
           <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-2xl sm:text-3xl lg:text-5xl xl:text-7xl">
             From rough ideas, to <br></br>
@@ -130,9 +247,7 @@ const FeatureSection = () => {
             </p>
           </div>
         </div>
-      </Fade>
-
-
+      </Fade> */}
     </div>
   )
 }
