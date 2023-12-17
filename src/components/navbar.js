@@ -22,28 +22,30 @@ const Navbar = () => {
                 </Link>
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/blog"
+                  to="/services"
                 >
-                  Blog
+                  Services
                 </Link>
-                {/* <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/pricing"
-                >
-                  Pricing
-                </Link>
-                <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/careers"
-                >
-                  Careers
-                </Link> */}
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/contact"
                 >
                   Contact
                 </Link>
+                <Link
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  to="/blog"
+                >
+                  Blog
+                </Link>
+                
+                <Link
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  to="/careers"
+                >
+                  Careers
+                </Link>
+                
               </div>
             </div>
           </div>
