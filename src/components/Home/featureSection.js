@@ -1,23 +1,74 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import "swiper/css/navigation"
-import "swiper/css/pagination"
-import { Navigation } from 'swiper/modules';
 import Customer from "../../images/customer.svg"
 import Innovation from "../../images/innovation.svg"
 import Scalability from "../../images/scalability.svg"
 import Security from "../../images/security.svg"
 import Talent from "../../images/talent.svg"
 import Tailor from "../../images/tailor.svg"
-
+import YoutubeAnalyzer from "../../images/youtubeAnalyzer.jpg"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
+      <div className="py-16 mt-24">
+        <Fade bottom cascade>
+          <div className="flex flex-col gap-3">
+            <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
+              How we can help you
+            </h1>
+            <h2 className="text-white text-lg mt-5 opacity-50">
+              Unleashing Potential with Tailored IT Solutions
+            </h2>
+          </div>
+        </Fade>
+        <Fade bottom cascade>
+          <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
+            <div className="bg-lightblack p-8 rounded-xl service-card ">
+              <h1 className="text-white text-2xl">Web / Mobile Development</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Precision-engineered software for your industry's needs.
+              </p>
+            </div>
+            <div className="bg-lightblack p-8 rounded-xl service-card">
+              <h1 className="text-white text-2xl">Artificial Intelligence</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
+                Solutions
+              </p>
+            </div>
+            <div className="bg-lightblack p-8 rounded-xl service-card">
+              <h1 className="text-white text-2xl">AR & VR</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Beyond Reality, Transforming Experiences with Advanced AR & VR
+                Technologies
+              </p>
+            </div>
+            <div className="bg-lightblack p-8 rounded-xl service-card">
+              <h1 className="text-white text-2xl">Team Augmentation</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Our expert developers seamlessly integrate with your operations,
+                on-site or remotely.
+              </p>
+            </div>
+            <div className="bg-lightblack p-8 rounded-xl service-card">
+              <h1 className="text-white text-2xl">Audit & IT Consulting</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Targeted project analysis for informed, strategic IT decisions.
+              </p>
+            </div>
+
+            <div className="bg-lightblack p-8 rounded-xl service-card">
+              <h1 className="text-white text-2xl">Digital Presence Management</h1>
+              <p className="mt-5 text-white opacity-50 text-lg">
+                Intuitive designs that engage and delight users.
+              </p>
+            </div>
+          </div>
+        </Fade>
+      </div>
       {/* Cards are commented out */}
       {/* <Fade bottom cascade>
-        <div className="w-full flex flex-row justify-between mt-10 xxs:flex-col xs:flex-col sm:flex-row">
+        <div className="w-full flex flex-row justify-between xxs:flex-col xs:flex-col sm:flex-row">
           <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-lightblack to-lightblack hover:from-purple hover:to-pink transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">2.4M</h1>
             <h3 className="text-white">Days turn around</h3>
@@ -37,96 +88,30 @@ const FeatureSection = () => {
         </div>
       </Fade> */}
       <Fade bottom cascade>
-        <div className="mt-24 px-8">
-          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
-            How we can help you
-          </h1>
-          <h2 className="text-white text-lg mt-5 opacity-50">
-            Unleashing Potential with Tailored IT Solutions
-          </h2>
-        </div>
-      </Fade>
-      <Fade bottom cascade>
-        <div className="mt-10 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
-          <div className="bg-lightblack p-8 rounded-xl service-card ">
-            <h1 className="text-white text-2xl">Web / Mobile Development</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Precision-engineered software for your industry's needs.
-            </p>
-          </div>
-          <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">Artificial Intelligence</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
-              Solutions
-            </p>
-          </div>
-          <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">AR & VR</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Beyond Reality, Transforming Experiences with Advanced AR & VR
-              Technologies
-            </p>
-          </div>
-          <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">Team Augmentation</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Our expert developers seamlessly integrate with your operations,
-              on-site or remotely.
-            </p>
-          </div>
-          <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">Audit & IT Consulting</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Targeted project analysis for informed, strategic IT decisions.
-            </p>
-          </div>
-
-          <div className="bg-lightblack p-8 rounded-xl service-card">
-            <h1 className="text-white text-2xl">Digital Presence Management</h1>
-            <p className="mt-5 text-white opacity-50 text-lg">
-              Intuitive designs that engage and delight users.
-            </p>
+        <div className="flex justify-between align-middle">
+          <div className="pb-8 px-8">
+            <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
+              Projects
+            </h1>
           </div>
         </div>
-      </Fade>
-      <Fade bottom cascade>
-        <div className="mt-24 px-8">
-          <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
-            Projects
-          </h1>
-          <h2 className="text-white text-lg mt-5 opacity-50">
-            Turning dreams into reality
-          </h2>
-        </div>
-      </Fade>
-      <Fade bottom cascade>
-        <Swiper
-          style={{
-            '--swiper-navigation-color': '#fff',
-            '--swiper-pagination-color': '#fff',
-          }}
-          zoom={true}
-          slidesPerView={3}
-          spaceBetween={30}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Navigation]}
-          className="relative"
-        >
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 1</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 2</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 3</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 4</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 5</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 6</SwiperSlide>
-          <SwiperSlide className="w-5/6 flex justify-center items-center h-60">Slide 7</SwiperSlide>
-        </Swiper>
-      </Fade>
-      <Fade bottom cascade>
-        <div className="mt-24 px-8">
+        <Fade bottom cascade>
+          <div className="flex justify-between items-center mt-12">
+            <div className="grid m-12 md:m-0 md:grid-cols-2 gap-12 lg:gap-60">
+              <div className="md:p-8 rounded-lg service-card group hover:transform-none button">
+                <img src={YoutubeAnalyzer} alt="AI-based enterprise software interface for a retail dashboard" className="w-auto rounded-lg mb-4" />
+                <h3 className="text-gray-300 text-3xl font-semibold mb-4 group-hover:text-gray-200 transition-colors duration-100">ChatGPT powered Chrome Extension</h3>
+                <p className="text-gray-400 text-lg group-hover:text-gray-300 transition-colors duration-100">Chrome extension enabled by ChatGPT AI to deliver users instant content insights.</p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="flex justify-between p-5">
+            <button className="px-4 py-3 button bg-lightBlue-500 rounded">
+              <a href="#" className="text-white text-sm font-semibold py-2 px-4 rounded-lg">Start your innovation journey</a>
+            </button>
+          </div> */}
+        </Fade>
+        <div className="mt-48 px-8">
           <h1 className="text-white text-7xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-7xl">
             Why Techfi?
           </h1>
