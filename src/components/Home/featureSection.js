@@ -30,8 +30,8 @@ const FeatureSection = () => {
         <Fade bottom cascade>
           <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
             <div className="bg-lightblack p-8 rounded-xl service-card ">
-              <div className="flex items-center justify-start">
-              <img src={Development} className="w-12 mb-4 mr-3"></img>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Development} className="w-12 mr-3"></img>
               <h1 className="text-white text-2xl align-middle">Web / Mobile Development</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
@@ -39,9 +39,9 @@ const FeatureSection = () => {
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <div className="flex items-center justify-start">
-              <img src={Ai} className="w-12 mb-4 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle mb-3">Artificial Intelligence</h1>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Ai} className="w-12 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle ">Artificial Intelligence</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
@@ -49,9 +49,9 @@ const FeatureSection = () => {
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <div className="flex items-center justify-start">
-              <img src={Vr} className="w-12 mb-4 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle mb-3">AR & VR</h1>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Vr} className="w-12 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle ">AR & VR</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Beyond Reality, Transforming Experiences with Advanced AR & VR
@@ -59,9 +59,9 @@ const FeatureSection = () => {
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <div className="flex items-center justify-start">
-              <img src={Team} className="w-12 mb-4 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle mb-3">Team Augmentation</h1>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Team} className="w-12 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle ">Team Augmentation</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Our expert developers seamlessly integrate with your operations,
@@ -69,18 +69,18 @@ const FeatureSection = () => {
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <div className="flex items-center justify-start">
-              <img src={Auditing} className="w-12 mb-4 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle mb-3">Audit & IT Consulting</h1>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Auditing} className="w-12 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle ">Audit & IT Consulting</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Targeted project analysis for informed, strategic IT decisions.
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <div className="flex items-center justify-start">
-              <img src={Management} className="w-12 mb-4 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle mb-3">Digital Branding</h1>
+              <div className="flex items-center justify-start mb-2">
+              <img src={Management} className="w-12 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle ">Digital Branding</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Intuitive designs that engage and delight users.
