@@ -7,6 +7,12 @@ import Security from "../../images/security.svg"
 import Talent from "../../images/talent.svg"
 import Tailor from "../../images/tailor.svg"
 import YoutubeAnalyzer from "../../images/youtubeAnalyzer.jpg"
+import Auditing from "../../images/carbon_cloud-auditing.svg"
+import Development from "../../images/carbon_development.svg"
+import Management from "../../images/carbon_id-management.svg"
+import Ai from "../../images/eos-icons_ai.svg"
+import Vr from "../../images/eos-icons_virtual-reality.svg"
+import Team from "../../images/fluent_people-team-16-filled.svg"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
@@ -24,41 +30,58 @@ const FeatureSection = () => {
         <Fade bottom cascade>
           <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
             <div className="bg-lightblack p-8 rounded-xl service-card ">
-              <h1 className="text-white text-2xl">Web / Mobile Development</h1>
+              <div className="flex items-center justify-start">
+              <img src={Development} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle">Web / Mobile Development</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Precision-engineered software for your industry's needs.
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <h1 className="text-white text-2xl">Artificial Intelligence</h1>
+              <div className="flex items-center justify-start">
+              <img src={Ai} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle mb-3">Artificial Intelligence</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
                 Solutions
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <h1 className="text-white text-2xl">AR & VR</h1>
+              <div className="flex items-center justify-start">
+              <img src={Vr} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle mb-3">AR & VR</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Beyond Reality, Transforming Experiences with Advanced AR & VR
                 Technologies
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <h1 className="text-white text-2xl">Team Augmentation</h1>
+              <div className="flex items-center justify-start">
+              <img src={Team} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle mb-3">Team Augmentation</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Our expert developers seamlessly integrate with your operations,
                 on-site or remotely.
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <h1 className="text-white text-2xl">Audit & IT Consulting</h1>
+              <div className="flex items-center justify-start">
+              <img src={Auditing} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle mb-3">Audit & IT Consulting</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Targeted project analysis for informed, strategic IT decisions.
               </p>
             </div>
-
             <div className="bg-lightblack p-8 rounded-xl service-card">
-              <h1 className="text-white text-2xl">Digital Presence Management</h1>
+              <div className="flex items-center justify-start">
+              <img src={Management} className="w-12 mb-4 mr-3"></img>
+              <h1 className="text-white text-2xl align-middle mb-3">Digital Branding</h1>
+              </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Intuitive designs that engage and delight users.
               </p>
