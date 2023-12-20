@@ -32,8 +32,16 @@ const Contact = () => {
     })
       .then(response => response.json())
       .then(result => {
-        // Handle the API response here
-        console.log(result);
+        if (result.status === 200) {
+          alert("Message sent successfully!");
+          setName("");
+          setEmail("");
+          // setCompany("");
+          // setPhone("");
+          setMessage("");
+        } else {
+          alert("Message failed to send.");
+        }
       })
       .catch(error => {
         // Handle any errors here
