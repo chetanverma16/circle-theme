@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const url = process.env.AWS_LAMBDA + "/sendEmail";
+    const url = process.env.GATSBY_AWS_LAMBDA + "/sendEmail";
     const data = {
       senderName: name,
       senderEmail: email,
