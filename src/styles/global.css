@@ -92,3 +92,24 @@
   height: 100%;
   object-fit: cover;
 }
+
+.para {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1rem;
+}
