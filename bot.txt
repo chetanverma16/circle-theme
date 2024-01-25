@@ -1,0 +1,10 @@
+<chat-widget
+location-id="vOeuzWZBRiQqovwr1h8x"
+agency-name="cojovi web dev"
+agency-website="https://www.cojovi.com"
+locale="en-us" >
+</chat-widget>
+<script
+src="https://widgets.leadconnectorhq.com/loader.js"
+data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" >
+</script>

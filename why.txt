@@ -1,0 +1,53 @@
+success open and validate gatsby-configs, load plugins - 1.419s
+success onPreInit - 0.018s
+info One or more of your plugins have changed since the last time you ran Gatsby. As
+a precaution, we're deleting your site's cache to ensure there's no stale data.
+success initialize cache - 0.164s
+success copy gatsby files - 0.509s
+success Compiling Gatsby Functions - 0.938s
+success onPreBootstrap - 0.977s
+success createSchemaCustomization - 0.023s
+success Checking for changed pages - 0.005s
+success source and transform nodes - 0.135s
+success building schema - 0.754s
+success createPages - 0.001s
+success createPagesStatefully - 0.179s
+info Total nodes: 53, SitePage nodes: 11 (use --verbose for breakdown)
+success Checking for changed pages - 0.001s
+success update schema - 0.111s
+success write out redirect data - 0.012s
+success Build manifest and related icons - 0.205s
+success onPostBootstrap - 0.212s
+info bootstrap finished - 11.526s
+success onPreExtractQueries - 0.003s
+success extract queries from components - 2.822s
+success write out requires - 0.051s
+success run static queries - 0.022s - 1/1 46.27/s
+success run page queries - 0.042s - 3/3 71.60/s
+
+ ERROR
+
+(node:79950) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative
+instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+success Caching HTML renderer compilation - 0.431s
+⠀
+You can now view gatsby-starter-default in the browser.
+⠀
+  http://localhost:8000/
+⠀
+View GraphiQL, an in-browser IDE, to explore your site's data and schema
+⠀
+  http://localhost:8000/___graphql
+⠀
+Note that the development build is not optimized.
+To create a production build, use gatsby build
+⠀
+success Building development bundle - 17.625s
+success Writing page-data.json files to public directory - 0.246s - 3/11 44.72/s
+success onPreExtractQueries - 0.010s
+success extract queries from components - 0.227s
+success write out requires - 0.002s
+success run page queries - 0.014s - 1/1 71.32/s
+success Writing page-data.json files to public directory - 0.039s - 1/8 202.84/s
