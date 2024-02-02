@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="self-end xs:col-span-2">
           <h1 className="text-white text-sm">
-            © 2023 <a href="https://www.techfi.ca/">techfi.ca</a>• All Rights
+            © 2024 <a href="https://www.techfi.ca/">techfi.ca</a>• All Rights
             Reserved.
           </h1>
         </div>
