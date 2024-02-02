@@ -1,15 +1,18 @@
-FROM node:21-alpine3.18
+FROM node:21-alpine3.18 as build
+
+LABEL maintainer="Kamyab Rouhfar <karouhifar@gmail.com>"
+LABEL description="TechFi Web Application"
+LABEL version="1.0.0"
 
 WORKDIR /app
 
-COPY . .
-
 COPY package*.json .env ./
+
 
 RUN npm ci --legacy-peer-deps
 
-RUN npm run build
+COPY . .
 
-EXPOSE 8000
+RUN npm run build
 
 CMD ["npm", "run", "develop"]

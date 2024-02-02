@@ -1,0 +1,14 @@
+.github/
+.vscode/
+.cache/
+coverage/
+node_modules/
+public/
+aws/
+tests/
+.eslintrc.js
+.git/
+.gitignore
+.prettier*
+jest*
+awscliv2.zip
