@@ -2,6 +2,7 @@ import React from "react"
 import Input from "../Atoms/input"
 import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
+import { Link } from "gatsby"
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
           </div>
         </Fade>
         <Fade bottom>
-          <div className="flex justify-center items-center w-full mt-12">
+          <div className="flex justify-center items-center w-full mt-12 gap-6">
             <a
               href="https://calendly.com/techfi/30min"
               target="_blank"
@@ -33,6 +34,12 @@ const Header = () => {
                 textColor="text-white text-base font-medium tracking-wide"
               ></Button>
             </a>
+            <Link to="/contact">
+              <button
+                className="border-lightBlue-400 hover:border-lightBlue-500 hover:text-lightBlue-500 border rounded-lg px-4 py-3 text-lightBlue-400 text-base font-medium tracking-wide"
+                >Contact Us
+              </button>
+            </Link>
           </div>
         </Fade>
       </div>
