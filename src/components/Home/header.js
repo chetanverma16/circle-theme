@@ -27,16 +27,13 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                colorClass="bg-lightBlue-400 hover:bg-lightBlue-500"
-                marginClass="px-4 py-3"
-                title="Book a Free Consultation"
-                textColor="text-white text-base font-medium tracking-wide"
-              ></Button>
+              <button
+              className="solid-button"
+              >Book a Free Consultation</button>
             </a>
             <Link to="/contact">
               <button
-                className="border-lightBlue-400 hover:border-lightBlue-500 hover:text-lightBlue-500 border rounded-lg px-4 py-3 text-lightBlue-400 text-base font-medium tracking-wide"
+                className="ghost-button"
                 >Contact Us
               </button>
             </Link>

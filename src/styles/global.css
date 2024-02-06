@@ -114,3 +114,39 @@
   color: #fff;
   margin-bottom: 1rem;
 }
+
+.solid-button {
+  background: #8F0AB1;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* hover */
+  &:hover {
+    background: #ED8C32;
+    font-weight: 600;
+    transform: scale(1.05);
+  }
+}
+
+.ghost-button {
+  border: 1px solid #8F0AB1;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  /* hover */
+  &:hover {
+    border: 1px solid #ED8C32;
+    font-weight: 600;
+    transform: scale(1.05);
+  }
+}
