@@ -8,6 +8,7 @@
   }
   body {
     background-color: black;
+    overflow-x: hidden;
   }
   /* Header Component */
 
@@ -49,7 +50,7 @@
 /* For desktop devices */
 @media (min-width: 1025px) {
   .bg-image {
-    height: 700px;
+    height: 840px;
     /* Add other styles as needed */
   }
 }
@@ -112,4 +113,95 @@
   font-weight: 500;
   color: #fff;
   margin-bottom: 1rem;
+}
+
+.solid-button {
+  background: #8F0AB1;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* hover */
+  &:hover {
+    background: #ED8C32;
+    font-weight: 600;
+    transform: scale(1.05);
+  }
+}
+
+.ghost-button {
+  border: 1px solid #8F0AB1;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  /* hover */
+  &:hover {
+    border: 1px solid #ED8C32;
+    font-weight: 600;
+    transform: scale(1.05);
+  }
+}
+.sub-menu.closed {
+    display: none;
+}
+.sub-menu.open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    z-index: 9999;
+}
+.sub-menu.open > a {
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid lightgray;
+}
+@media (max-width: 768px) {
+/* Add these styles in your CSS file or inside a <style> tag in your component */
+  .mobileWrapper {
+    position: fixed; /* Fixed position to stay over the content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50; /* Ensure it's above other content */
+    background: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem; /* Space for close button */
+    padding-left: 10vw;
+  }
+
+  .mobileNavClose {
+    position: absolute;
+    top: 1.5rem; /* Distance from the top */
+    right: 2rem; /* Distance from the right */
+    background: transparent;
+    border: none;
+    color: white; /* Color of the 'x' button */
+    font-size: 2rem; /* Size of the 'x' button */
+    cursor: pointer;
+  }
+
+  /* You might want to style your sub-menu differently for mobile view */
+  .sub-menu {
+    display: none; /* Initially hidden */
+  }
+  .sub-menu.open {
+    position: relative;
+  }
+  .sub-menu.open > a {
+    padding: 5px;
+  }
 }

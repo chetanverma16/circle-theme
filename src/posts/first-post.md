@@ -5,6 +5,7 @@ author: "Youtube Analyzer Community"
 humanDate: "July 30, 2023"
 subtitle: "Unveiling the intricate process of comment analysis through YouTube Analyzer."
 path: "/first-post"
+FileSection: "Post"
 ---
 
 Ever wondered how to sift through and understand the hundreds, or even thousands, of comments on your YouTube videos? That's where YouTube Analyzer steps in. This blog will shed light on how YouTube Analyzer deciphers comments for you.
