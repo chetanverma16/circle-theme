@@ -15,7 +15,7 @@ const Header = () => {
               Innovation within
               <span className="text-gradient-header ml-3">Reach</span>
             </h1>
-            <h2 className="text-white font-poppins opacity-80 font-normal tracking-wide text-base xxs:text-base xs:text-lg sm:text-lg md:text-lg lg:text-2xl 2xl:text-2xl mx-36">
+            <h2 className="text-white font-poppins opacity-80 font-normal tracking-wide text-base xxs:text-base xs:text-lg sm:text-lg md:text-lg lg:text-2xl 2xl:text-2xl 2xl:mx-36">
               We deliver premium creative solutions to your technology needs.
             </h2>
           </div>
