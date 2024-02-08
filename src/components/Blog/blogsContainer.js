@@ -117,10 +117,10 @@ const BlogsContainer = () => {
       </Fade>
       <div className="w-full h-72 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
         <h1 className="font-poppins font-bold text-3xl">Stay in the loop</h1>
-        <h2 className="text-lg mt-2 opacity-50">
+        <h2 className="text-lg mt-2 p-4 opacity-50">
           Join our newsletter to get top news before anyone else
         </h2>
-        <div className="flex-row mt-10">
+        <div className="flex mt-10">
           <Input placeholder="email."></Input>
           <Button
             colorClass="bg-white"

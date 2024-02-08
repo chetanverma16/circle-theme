@@ -14,10 +14,7 @@ const CareersRoles = () => {
           >
             <h2 className="text-3xl font-bold">Product Design Manager</h2>
             <p className="mt-10 opacity-50">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Join our team as a Product Design Manager and lead innovative design projects. We're looking for a creative individual who can drive product development with user-centered design principles and a passion for crafting exceptional user experiences.
             </p>
           </a>
           <a
@@ -26,10 +23,7 @@ const CareersRoles = () => {
           >
             <h2 className="text-3xl font-bold">Senior Data Engineer</h2>
             <p className="mt-10 opacity-50">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              We're seeking a Senior Data Engineer to join our dynamic team. In this role, you will be responsible for developing and maintaining scalable data infrastructure, implementing data pipelines, and optimizing data processes. If you're passionate about data-driven solutions and enjoy tackling complex challenges, we want to hear from you.
             </p>
           </a>
         </div>

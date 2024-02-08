@@ -45,7 +45,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl align-middle ">Business Automation</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Streamlining your operations with seamless automation, anywhere.
+                Automate your business operations for efficiency.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl align-middle">Web / Mobile Development</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Precision-engineered software for your industry's needs.
+                Custom software solutions tailored to your needs.
               </p>
             </div>
 
@@ -65,7 +65,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl align-middle ">Audit & IT Consulting</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Targeted project analysis for informed, strategic IT decisions.
+                Expert analysis for strategic IT decision-making.
               </p>
             </div>
 
@@ -75,8 +75,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl align-middle ">AR & VR</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Beyond Reality, Transforming Experiences with Advanced AR & VR
-                Technologies
+                Transforming experiences with advanced AR & VR technologies.
               </p>
             </div>
 
@@ -86,7 +85,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl align-middle ">Digital Branding</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Intuitive designs that engage and delight users.
+              Engaging brand designs tailored to delight your audience.
               </p>
             </div>
           </div>

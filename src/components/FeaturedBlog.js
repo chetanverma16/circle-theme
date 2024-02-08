@@ -4,13 +4,12 @@ const FeaturedBlog = () => {
   return (
     <div className="max-w-7xl mx-auto px-8 mt-10">
       <h1 className="text-white font-poppins font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
-        Refreshing news for <br></br> developers and designers
+        Stay Ahead with Fresh Insights for Your Business
       </h1>
       <p className="text-white text-lg mt-5 opacity-50 w-3/4 xxs:w-full lg:w-3/4">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
+      Discover practical tips and insights to boost productivity and efficiency for small and medium businesses. 
+      From time management hacks to innovative tech solutions, our blog has you covered. 
+      Stay informed, stay ahead, and unlock your business's potential with our curated articles.
       </p>
       <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3">
         <div className="rounded-xl overflow-hidden opacity-70 relative hover:opacity-100">
