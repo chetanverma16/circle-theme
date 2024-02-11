@@ -52,7 +52,7 @@ const FeatureSection = () => {
             <div className="bg-lightblack p-8 rounded-xl service-card ">
               <div className="flex items-center justify-start mb-2">
               <img src={Development} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle">Web / Mobile Development</h1>
+              <h1 className="text-white text-2xl sm:text-xl md:text-2xl align-middle">Web / Mobile Development</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Custom software solutions tailored to your needs.

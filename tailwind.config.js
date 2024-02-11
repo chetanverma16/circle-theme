@@ -17,6 +17,7 @@ module.exports = {
       white: colors.white,
       lightblack: "#141414",
       gray: colors.gray,
+      lightgray: "#A9B2BD",
       transparent: colors.transparent,
     },
     screens: {
