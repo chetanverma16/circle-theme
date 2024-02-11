@@ -7,6 +7,7 @@ subtitle: "Unveiling the intricate process of AI-powered chatbots."
 path: "/blog/leveraging-ai-chatbots"
 FileSection: "Blog"
 image: ["../images/AI Chatbot.png", "../images/AI Chatbot version 2.png"]
+description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
 ---
 
 ### Leveraging AI Chatbots to Enhance Customer Service

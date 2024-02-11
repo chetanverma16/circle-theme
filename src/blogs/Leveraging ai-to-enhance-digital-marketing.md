@@ -11,6 +11,7 @@ image:
     "../images/AI Digital Market.png",
     "../images/AI Digital Market version 2.png",
   ]
+  description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
 ---
 
 ### Leveraging AI to Enhance Digital Marketing for Small Business

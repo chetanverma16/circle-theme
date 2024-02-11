@@ -7,6 +7,7 @@ subtitle: "Robotic process automation (RPA) is transforming how businesses opera
 path: "/blog/robotic-automation"
 FileSection: "Blog"
 image: ["../images/AI Automation.png", "../images/AI Automation version 2.png"]
+description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
 ---
 
 ### An Introduction to Robotic Process Automation For Small Business

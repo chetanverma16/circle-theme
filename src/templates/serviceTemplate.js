@@ -1,21 +1,92 @@
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
 
-import React from 'react';
 
-const servicesData = [
-  { title: 'R&D and POC Implementation', description: 'Our technology consultants create, research, and prototype ideas to validate new technologies, products, and services in a lean way so that you can get user feedback early on and scale the winning solution rapidly.' },
-  // ... Add all other sections here similarly
-];
+export default function ServiceTemplate({ data }) {
+  const post = data.markdownRemark
+  console.log("post", post.frontmatter?.image?.publicURL)
+  return (
+    <Layout>
+      <section class="section single-page mt-20 mx-8">
+        <div class="container mx-auto max-w-7xl">
+          <div class="flex flex-col gap-12 justify-start items-start lg:w-9.5/12 mx-auto">
+            <button
+              onClick={e => {
+                e.preventDefault()
+                if (typeof window !== "undefined") {
+                  window.history.back()
+                }
+              }}
+              className="text-left text-inherit focus:outline-none focus:ring-0 text-white"
+            >
+              Go Back
+            </button>
 
-const ServiceTemplate = () => (
-    <div className="p-5 font-sans">
-    <h1 className="text-2xl font-bold">Our technology consulting services</h1>
-    <p className="mt-4 mb-5 text-base text-gray-600">Tech-driven transformation is up and will surely be running further. With technology moving forward ever faster, it takes a new approach to managing enterprise IT — the one focused on crafting resilient, scalable ecosystems that drive business growth. To help you ride the crest of transformation, we offer tech guidance embodied in a range of software consulting services:</p>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-      {servicesData.map((service, index) => (
-        <div> key={index} title={service.title} description={service.description} </div>
-      ))}
-    </div>
-  </div>
-);
+            <div class="flex flex-col gap-2 justify-center items-left">
+              {/* <!-- Header --> */}
+              <div class="">
+                <h3 class="text-left text-white text-5xl">
+                  {post.frontmatter.title}
+                </h3>
+              </div>
+              <div class="flex flex-col md:flex-row gap-1 items-start">
+                <h5 class="text-gray-400 text-2xl">
+                  {post.frontmatter.subtitle}
+                </h5>
+              </div>
+              {/* <!-- main image --> */}
+              <div class="flex justify-start overflow-hidden items-center pt-4 pb-2 h-96 w-full gap-5">
+                {post.frontmatter?.image?.map(img => (
+                  <div class="max-w-full h-full bg-white p-2 rounded-lg">
+                    {/* <!-- Replace with actual image --> */}
+                    <img
+                      class="w-full h-full object-cover rounded-lg"
+                      src={img?.publicURL}
+                    />
+                  </div>
+                ))}
+              </div>
+              {/* <!-- main image end --> */}
+              <div class="flex md:flex-row gap-1 h-14 items-center py-2 border-b border-gray-700">
+                {/*<img class="w-6 h-6" src="{icon}" />*/}
+                <span class="text-gray-400">{post.frontmatter.author}</span>
+                <span class="text-gray-400">•</span>
+                <span class="text-gray-400">{post.frontmatter.humanDate}</span>
+              </div>
+              {/* <!-- Header end --> */}
+            </div>
 
-export default ServiceTemplate;
+            <div class="flex flex-col justify-center gap-4 items-center w-full">
+              <div class="w-full">
+                <div
+                  className="text-white"
+                  dangerouslySetInnerHTML={{ __html: post.html }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  )
+}
+export const query = graphql`
+  query($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+        humanDate
+        path
+        title
+        author
+        subtitle
+        image {
+          publicURL
+          base
+        }
+      }
+    }
+  }
+`
