@@ -21,7 +21,7 @@
     top: 0%;
     width: 100%;
     filter: brightness(0.8) blur(1px);
-    height: 660px;
+    height: 680px;
     z-index: -1;
   }
   .bg-image:after {
@@ -41,7 +41,7 @@
 /* For tablet devices */
 @media (min-width: 601px) and (max-width: 1024px) {
   .bg-image {
-    height: 620px;
+    height: 680px;
     /* Add other styles as needed */
   }
 }

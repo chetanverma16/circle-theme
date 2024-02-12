@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="bg-image" />
-      <div className="max-w-7xl mx-auto px-8 mt-32 mb-20 md:mt-36 lg:mt-24">
+      <div className="max-w-7xl mx-auto px-8 mt-32 mb-24 sm:mb-36 md:mb-28 md:mt-36 lg:mt-24">
         <Fade>
           <div className="flex justify-center flex-col text-center gap-6 md:mx-28 lg:mx-44">
             <div className="flex flex-col justify-center items-center">
