@@ -197,3 +197,24 @@
   }
 }
 
+
+.infinite-scroll {
+  display: flex;
+  animation: slide 10s linear infinite;
+}
+
+.infinite-scroll::after {
+  content: "";
+  display: flex;
+  animation: slide 10s linear infinite;
+  animation-delay: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
