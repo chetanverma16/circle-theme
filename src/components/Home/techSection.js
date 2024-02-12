@@ -1,11 +1,9 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import Slider from "react-slick"
 import Angular from "../../images/angular.png"
 import Aws from "../../images/aws.png"
 import Cloud from "../../images/cloud.png"
 import Nodejs from "../../images/nodejs.png"
-import Python from "../../images/python.png"
 import ReactNative from "../../images/react-native.png"
 import Reactjs from "../../images/react.png"
 import django from "../../images/django.png"
@@ -15,14 +13,13 @@ const TechSection = () => {
   const settings = {
     dots: false,
     infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
     autoplay: true,
-    speed: 10000, // Consistent animation speed
-    autoplaySpeed: 1000, // Adjusted for consistency
-    accessibility: false,
+    speed: 2000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     arrows: false,
-    slidesToShow: 5,
-    slidesToScroll: 5,
     draggable: false,
     swipe: false,
     touchMove: false,
@@ -46,12 +43,12 @@ const TechSection = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
     ]
-  }
+  };
 
   return (
     <>

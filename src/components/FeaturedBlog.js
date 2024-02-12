@@ -4,7 +4,7 @@ const FeaturedBlog = () => {
   return (
     <div className="max-w-7xl mx-auto px-8 mt-10">
       <h1 className="text-white font-poppins font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
-        Stay Ahead with Fresh Insights for Your Business
+        Stay ahead with fresh insights
       </h1>
       <p className="text-white text-lg mt-5 opacity-50 w-3/4 xxs:w-full lg:w-3/4">
       Discover practical tips and insights to boost productivity and efficiency for small and medium businesses. 

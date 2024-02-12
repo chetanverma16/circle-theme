@@ -41,19 +41,11 @@
 /* For tablet devices */
 @media (min-width: 601px) and (max-width: 1024px) {
   .bg-image {
-    height: 630px;
+    height: 620px;
     /* Add other styles as needed */
   }
 }
 
-
-/* For desktop devices */
-@media (min-width: 1025px) {
-  .bg-image {
-    height: 840px;
-    /* Add other styles as needed */
-  }
-}
 
 /* FeatureSection Component */
   .service-card:hover {/* For mobile devices */
