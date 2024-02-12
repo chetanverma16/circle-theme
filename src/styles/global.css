@@ -119,9 +119,8 @@
   transition: all 0.3s ease-in-out;
   /* hover */
   &:hover {
-    background: #ED8C32;
     font-weight: 600;
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 }
 
@@ -137,9 +136,8 @@
   letter-spacing: 1px;
   /* hover */
   &:hover {
-    border: 1px solid #ED8C32;
     font-weight: 600;
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 }
 .sub-menu.closed {
@@ -149,15 +147,16 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background: black;
+    background: rgb(20, 20, 20);
+    border-radius: 5px;
+    /* border: 1px solid rgb(56, 56, 56); */
     z-index: 9999;
 }
 .sub-menu.open > a {
     padding: 1rem 2rem;
-    color: white;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    border-bottom: 1px solid lightgray;
+    transition: all 0.1s ease-in-out;
+    border-bottom: 1px solid rgb(56, 56, 56);
 }
 @media (max-width: 768px) {
 /* Add these styles in your CSS file or inside a <style> tag in your component */
