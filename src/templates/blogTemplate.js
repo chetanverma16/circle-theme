@@ -1,12 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
 export default function BlogTemplate({ data }) {
   const post = data.markdownRemark
-  console.log("post", post.frontmatter?.image?.publicURL)
+  console.log("post", post.frontmatter)
   return (
     <>
-      <section class="section single-page mt-20 mx-8">
+      <section class="section single-page mt-20 mx-auto px-44">
         <div class="container mx-auto max-w-7xl">
           <div class="flex flex-col gap-12 justify-start items-start lg:w-9.5/12 mx-auto">
             <button
@@ -18,7 +20,8 @@ export default function BlogTemplate({ data }) {
               }}
               className="text-left text-inherit focus:outline-none focus:ring-0 text-white"
             >
-              Go Back
+              <FontAwesomeIcon icon={faArrowLeft} />
+              <span className="ml-2">Go Back</span>
             </button>
 
             <div class="flex flex-col gap-2 justify-center items-left">
@@ -47,7 +50,12 @@ export default function BlogTemplate({ data }) {
               </div>
               {/* <!-- main image end --> */}
               <div class="flex md:flex-row gap-1 h-14 items-center py-2 border-b border-gray-700">
-                {/*<img class="w-6 h-6" src="{icon}" />*/}
+                <div className="h-8 w-8 object-cover overflow-hidden rounded-full mx-2">
+                  <img
+                    className="h-8 w-8 object-cover"
+                    src={post.frontmatter.authorImg}
+                  />
+                </div>
                 <span class="text-gray-400">{post.frontmatter.author}</span>
                 <span class="text-gray-400">•</span>
                 <span class="text-gray-400">{post.frontmatter.humanDate}</span>
@@ -57,10 +65,12 @@ export default function BlogTemplate({ data }) {
 
             <div class="flex flex-col justify-center gap-4 items-center w-full">
               <div class="w-full">
-                <div
-                  className="text-white"
-                  dangerouslySetInnerHTML={{ __html: post.html }}
-                />
+                <div class="reset-common-blog-css">
+                  <div
+                    className="text-white"
+                    dangerouslySetInnerHTML={{ __html: post.html }}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -79,6 +89,7 @@ export const query = graphql`
         path
         title
         author
+        authorImg
         subtitle
         image {
           publicURL

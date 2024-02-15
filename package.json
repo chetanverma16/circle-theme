@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "gatsby": "^5.13.2",
     "gatsby-plugin-gatsby-cloud": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
@@ -44,9 +47,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "docker" : "docker build -t image-techfi . && docker run -p 8000:8000 image-techfi",
-    "hot-docker" : "docker-compose up --build",
-
+    "docker": "docker build -t image-techfi . && docker run -p 8000:8000 image-techfi",
+    "hot-docker": "docker-compose up --build",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
