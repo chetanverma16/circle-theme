@@ -5,6 +5,7 @@ import Emin from "../../images/emin.jpg"
 import Cagdas from "../../images/cagdas.jpg"
 import Kamyab from "../../images/kamyab.jpg"
 import Nikhil from "../../images/nikhil.jpg"
+import Nellie from "../../images/Nellie.png"
 
 const AboutGrid = () => {
   return (
@@ -28,6 +29,10 @@ const AboutGrid = () => {
       <AboutTeamCard
         imgSrc={Nikhil}
         position="Nikhil, CMO"
+      ></AboutTeamCard>
+      <AboutTeamCard
+        imgSrc={Nellie}
+        position="Nellie, Finance Journalist"
       ></AboutTeamCard>
 
     </div>

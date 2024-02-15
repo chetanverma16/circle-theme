@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import BlogHeader from "../components/Blog/blogHeader"
 import BlogsContainer from "../components/Blog/blogsContainer"
 import Layout from "../components/layout"
@@ -6,7 +7,9 @@ import Layout from "../components/layout"
 const Blog = () => {
   return (
     <Layout>
-      <BlogHeader></BlogHeader>
+      <Link to={"/blog/ai-for-small-business"}>
+        <BlogHeader></BlogHeader>
+      </Link>
       <BlogsContainer></BlogsContainer>
     </Layout>
   )

@@ -6,6 +6,43 @@
   a {
     color: white;
   }
+
+  .reset-common-blog-css blockquote,
+  .reset-common-blog-css dl,
+  .reset-common-blog-css dd,
+  .reset-common-blog-css h1,
+  .reset-common-blog-css h2,
+  .reset-common-blog-css h3,
+  .reset-common-blog-css h4,
+  .reset-common-blog-css h5,
+  .reset-common-blog-css h6,
+  .reset-common-blog-css figure,
+  .reset-common-blog-css p,
+  .reset-common-blog-css pre,
+  .reset-common-blog-css ol,
+  .reset-common-blog-css ul,
+  .reset-common-blog-css li {
+    font-size: revert !important;
+    font-weight: revert !important;
+    list-style: revert !important;
+    margin: revert !important;
+    padding: revert !important;
+    font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  }
+  .reset-common-blog-css ul {
+    padding: 0 !important;
+  }
+
+  .reset-common-blog-css p {
+    font-weight: 200 !important;
+  }
+
+  .reset-common-blog-css hr {
+    border-width: 0.05rem;
+    margin: 3rem auto !important;
+    opacity: 0.3;
+  }
+
   body {
     background-color: black;
     overflow-x: hidden;
@@ -25,7 +62,11 @@
     z-index: -1;
   }
   .bg-image:after {
-    background: linear-gradient(90deg,rgba(26, 30, 34, .7),rgba(0,0,0,.8));
+    background: linear-gradient(
+      90deg,
+      rgba(26, 30, 34, 0.7),
+      rgba(0, 0, 0, 0.8)
+    );
     bottom: 0;
     content: "";
     height: 100%;
@@ -35,37 +76,39 @@
     top: 0;
     width: 100%;
     z-index: 3;
-}
-
-
-/* For tablet devices */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .bg-image {
-    height: 680px;
-    /* Add other styles as needed */
   }
-}
 
+  /* For tablet devices */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .bg-image {
+      height: 680px;
+      /* Add other styles as needed */
+    }
+  }
 
-/* FeatureSection Component */
-  .service-card:hover {/* For mobile devices */
+  /* FeatureSection Component */
+  .service-card:hover {
+    /* For mobile devices */
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
-    background: linear-gradient(90deg,rgba(26, 30, 34, .7),rgba(0,0,0,.8));
+    background: linear-gradient(
+      90deg,
+      rgba(26, 30, 34, 0.7),
+      rgba(0, 0, 0, 0.8)
+    );
   }
 }
 
 @layer utilities {
   .bg-gradient-header {
-    background: linear-gradient(to right, #8F0AB1, #ED8C32);
+    background: linear-gradient(to right, #8f0ab1, #ed8c32);
   }
   .text-gradient-header {
-    background: linear-gradient(to right, #8F0AB1, #ED8C32);
+    background: linear-gradient(to right, #8f0ab1, #ed8c32);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
-
 
 .swiper {
   width: 100%;
@@ -108,7 +151,7 @@
 }
 
 .solid-button {
-  background: #8F0AB1;
+  background: #8f0ab1;
   padding: 1rem;
   border-radius: 5px;
   color: #fff;
@@ -125,7 +168,7 @@
 }
 
 .ghost-button {
-  border: 1px solid #8F0AB1;
+  border: 1px solid #8f0ab1;
   padding: 1rem;
   border-radius: 5px;
   color: #fff;
@@ -141,25 +184,25 @@
   }
 }
 .sub-menu.closed {
-    display: none;
+  display: none;
 }
 .sub-menu.open {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    background: rgb(20, 20, 20);
-    border-radius: 5px;
-    /* border: 1px solid rgb(56, 56, 56); */
-    z-index: 9999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: rgb(20, 20, 20);
+  border-radius: 5px;
+  /* border: 1px solid rgb(56, 56, 56); */
+  z-index: 9999;
 }
 .sub-menu.open > a {
-    padding: 1rem 2rem;
-    text-decoration: none;
-    transition: all 0.1s ease-in-out;
-    border-bottom: 1px solid rgb(56, 56, 56);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  border-bottom: 1px solid rgb(56, 56, 56);
 }
 @media (max-width: 768px) {
-/* Add these styles in your CSS file or inside a <style> tag in your component */
+  /* Add these styles in your CSS file or inside a <style> tag in your component */
   .mobileWrapper {
     position: fixed; /* Fixed position to stay over the content */
     top: 0;
@@ -196,7 +239,6 @@
     padding: 5px;
   }
 }
-
 
 .infinite-scroll {
   display: flex;
