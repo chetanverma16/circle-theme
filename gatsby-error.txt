@@ -1,0 +1,556 @@
+atsby develop
+
+ ERROR
+
+(node:74166) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative
+instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+
+(node:74175) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative 
+instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ ERROR
+
+(node:74174) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative
+instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+success open and validate gatsby-configs, load plugins - 2.212s
+success onPreInit - 0.016s
+success initialize cache - 0.137s
+success copy gatsby files - 0.410s
+success Compiling Gatsby Functions - 0.944s
+success onPreBootstrap - 0.993s
+success createSchemaCustomization - 0.009s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.138s
+success building schema - 0.718s
+success createPages - 0.002s
+success createPagesStatefully - 0.173s
+info Total nodes: 53, SitePage nodes: 11 (use --verbose for breakdown)
+success Checking for changed pages - 0.001s
+success update schema - 0.157s
+success write out redirect data - 0.005s
+success Build manifest and related icons - 0.175s
+success onPostBootstrap - 0.182s
+info bootstrap finished - 11.413s
+success onPreExtractQueries - 0.001s
+success extract queries from components - 2.055s
+success write out requires - 0.050s
+success run static queries - 0.024s - 1/1 40.90/s
+success run page queries - 0.079s - 3/3 37.92/s
+
+ ERROR
+
+(node:74188) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative
+instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+warn `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/types/lib/validators/generated/index.js:2748:35)
+    at PluginPass.Program (/Users/cojovi/Github/oneshotpred/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+warn
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogHeader.js
+   9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  21:15  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogsContainer.js
+  79:17  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersHeader.js
+  19:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  35:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersRoles.js
+  11:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+  20:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+
+/Users/cojovi/Github/oneshotpred/src/components/Home/testimonial.js
+  23:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutHeader.js
+  9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutMore.js
+  10:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  16:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamBigCard.js
+  7:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamCard.js
+  8:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/navbar.js
+  44:13  warning  A control must be associated with a text label  jsx-a11y/control-has-associated-label
+
+/Users/cojovi/Github/oneshotpred/src/pages/contact.js
+  51:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+✖ 15 problems (0 errors, 15 warnings)
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+
+File: src/pages/index.js:37:24
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+failed Building development bundle - 26.029s
+ERROR in ./src/pages/index.js
+Module build failed (from ./node_modules/gatsby/dist/utils/babel-loader.js):
+SyntaxError: /Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+    at toParseError (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parse-error.ts:81:19)
+    at JSXParserMixin.raise 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at JSXParserMixin.semicolon 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/util.ts:141:10)
+    at JSXParserMixin.parseExportDefaultExpression
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2561:10)
+    at JSXParserMixin.parseExport
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2413:25)
+    at JSXParserMixin.parseStatementContent
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:596:25)
+    at JSXParserMixin.parseStatementLike
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:416:17)
+    at JSXParserMixin.parseModuleItem
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:353:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1393:16)
+    at JSXParserMixin.parseBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1367:10)
+    at JSXParserMixin.parseProgram
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:212:10)
+    at JSXParserMixin.parseTopLevel
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:194:25)
+    at JSXParserMixin.parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/index.ts:34:26)
+    at parser (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:261:32)
+    at /Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:223:11)
+ @ ./.cache/_this_is_virtual_fs_path_/$virtual/async-requires.js 15:42-138
+ @ ./.cache/app.js 14:0-52 28:87-32:1 31:29-42 34:29-42 28:0-32:2
+
+ERROR in
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+webpack compiled with 2 errors
+success Writing page-data.json files to public directory - 0.344s - 3/11 31.95/s
+success Caching HTML renderer compilation - 39.316s
+success onPreExtractQueries - 0.003s
+success extract queries from components - 0.248s
+success write out requires - 0.009s
+success Writing page-data.json files to public directory - 0.173s - 0/8 46.16/s
+warn
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogHeader.js
+   9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  21:15  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogsContainer.js
+  79:17  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersHeader.js
+  19:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  35:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersRoles.js
+  11:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+  20:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+
+/Users/cojovi/Github/oneshotpred/src/components/Home/testimonial.js
+  23:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutHeader.js
+  9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutMore.js
+  10:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  16:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamBigCard.js
+  7:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamCard.js
+  8:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/navbar.js
+  44:13  warning  A control must be associated with a text label  jsx-a11y/control-has-associated-label
+
+/Users/cojovi/Github/oneshotpred/src/pages/contact.js
+  51:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+✖ 15 problems (0 errors, 15 warnings)
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+
+File: src/pages/index.js:37:24
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+failed Re-building development bundle - 1.032s
+ERROR in ./src/pages/index.js
+Module build failed (from ./node_modules/gatsby/dist/utils/babel-loader.js):
+SyntaxError: /Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+    at toParseError (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parse-error.ts:81:19)
+    at JSXParserMixin.raise 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at JSXParserMixin.semicolon 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/util.ts:141:10)
+    at JSXParserMixin.parseExportDefaultExpression
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2561:10)
+    at JSXParserMixin.parseExport
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2413:25)
+    at JSXParserMixin.parseStatementContent
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:596:25)
+    at JSXParserMixin.parseStatementLike
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:416:17)
+    at JSXParserMixin.parseModuleItem
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:353:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1393:16)
+    at JSXParserMixin.parseBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1367:10)
+    at JSXParserMixin.parseProgram
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:212:10)
+    at JSXParserMixin.parseTopLevel
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:194:25)
+    at JSXParserMixin.parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/index.ts:34:26)
+    at parser (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:261:32)
+    at /Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:223:11)
+ @ ./.cache/_this_is_virtual_fs_path_/$virtual/async-requires.js 15:42-138
+ @ ./.cache/app.js 14:0-52 28:87-32:1 31:29-42 34:29-42 28:0-32:2
+
+ERROR in
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+webpack compiled with 2 errors
+success onPreExtractQueries - 0.001s
+success extract queries from components - 0.133s
+success write out requires - 0.001s
+success Writing page-data.json files to public directory - 0.019s - 0/8 414.43/s
+warn
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogHeader.js
+   9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  21:15  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Blog/blogsContainer.js
+  79:17  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersHeader.js
+  19:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  35:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/Careers/careersRoles.js
+  11:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+  20:11  warning  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as 
+the
+href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and 
+change it
+ with appropriate styles. Learn more:
+https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  
+jsx-a11y/anchor-is-valid
+
+/Users/cojovi/Github/oneshotpred/src/components/Home/testimonial.js
+  23:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutHeader.js
+  9:11  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutMore.js
+  10:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+  16:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamBigCard.js
+  7:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/about/aboutTeamCard.js
+  8:9  warning  img elements must have an alt prop, either with meaningful text, or an empty string for decorative 
+images
+  jsx-a11y/alt-text
+
+/Users/cojovi/Github/oneshotpred/src/components/navbar.js
+  44:13  warning  A control must be associated with a text label  jsx-a11y/control-has-associated-label
+
+/Users/cojovi/Github/oneshotpred/src/pages/contact.js
+  51:13  warning  img elements must have an alt prop, either with meaningful text, or an empty string for 
+decorative
+images  jsx-a11y/alt-text
+
+✖ 15 problems (0 errors, 15 warnings)
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+
+File: src/pages/index.js:37:24
+
+
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+failed Re-building development bundle - 0.684s
+ERROR in ./src/pages/index.js
+Module build failed (from ./node_modules/gatsby/dist/utils/babel-loader.js):
+SyntaxError: /Users/cojovi/Github/oneshotpred/src/pages/index.js: Missing semicolon. (37:24)
+
+  35 |    )
+  36 |
+> 37 | export default IndexPage   import * as React from "react"
+     |                         ^
+  38 |    import Layout from "../components/layout"
+  39 |    import { Helmet } from "react-helmet"
+  40 |
+    at toParseError (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parse-error.ts:81:19)
+    at JSXParserMixin.raise 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at JSXParserMixin.semicolon 
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/util.ts:141:10)
+    at JSXParserMixin.parseExportDefaultExpression
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2561:10)
+    at JSXParserMixin.parseExport
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:2413:25)
+    at JSXParserMixin.parseStatementContent
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:596:25)
+    at JSXParserMixin.parseStatementLike
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:416:17)
+    at JSXParserMixin.parseModuleItem
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:353:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1393:16)
+    at JSXParserMixin.parseBlockBody
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:1367:10)
+    at JSXParserMixin.parseProgram
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:212:10)
+    at JSXParserMixin.parseTopLevel
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/statement.ts:194:25)
+    at JSXParserMixin.parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/parser/index.ts:45:10)
+    at parse (/Users/cojovi/Github/oneshotpred/node_modules/@babel/parser/src/index.ts:34:26)
+    at parser (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/parser/index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile
+(/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/normalize-file.ts:50:24)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transformation/index.ts:39:36)
+    at run.next (<anonymous>)
+    at transform (/Users/cojovi/Github/oneshotpred/node_modules/@babel/core/src/transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at step (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:261:32)
+    at /Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/cojovi/Github/oneshotpred/node_modules/gensync/index.js:223:11)
+ @ ./.cache/_this_is_virtual_fs_path_/$virtual/async-requires.js 15:42-138
+ @ ./.cache/app.js 14:0-52 28:87-32:1 31:29-42 34:29-42 28:0-32:2
+
+ERROR in
+/Users/cojovi/Github/oneshotpred/src/pages/index.js
+  37:24  error  Parsing error: Missing semicolon. (37:24)
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+webpack compiled with 2 errors

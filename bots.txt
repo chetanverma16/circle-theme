@@ -1,0 +1,31 @@
+Code #1
+
+<chat-widget
+location-id="vOeuzWZBRiQqovwr1h8x"
+agency-name="cojovi web dev" 
+agency-website="https://www.cojovi.com" 
+locale="en-us" >
+</chat-widget>
+<script
+src="https://widgets.leadconnectorhq.com/loader.js" 
+data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" >
+</script>
+
+
+
+
+Code #2
+
+<div
+data-chat-widget
+data-location-id="vOeuzWZBRiQqovwr1h8x"
+data-agency-name="cojovi web dev" 
+data-agency-website="https://www.cojovi.com" 
+data-locale="en-us" >
+</div>
+<script
+src="https://widgets.leadconnectorhq.com/loader.js" 
+data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" >
+</script>
+
+LeadConnector Email System

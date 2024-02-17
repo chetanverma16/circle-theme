@@ -30,45 +30,45 @@ function Seo({ description, lang, meta, title }) {
 
   return (
     <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
+    htmlAttributes={{
+      lang: "en",
+    }}
+    title="Effective Predator Management Solutions | OneShot Predator Management"
+    titleTemplate="%s | OneShot Predator Management"
+    meta={[
+      {
+        name: "description",
+        content: "OneShot Predator Management is Fort Worth Texas's Premier company in effective predator control solutions, offering services to protect your property and livestock from predators. Experienced, licensed professionals ready to assist.",
+      },
+      {
+        property: "og:title",
+        content: "Effective Predator Management Solutions in Fort Worth Texas | OneShot Predator Management",
+      },
+      {
+        property: "og:description",
+        content: "OneShot Predator Management is Fort Worth Texas's Premier company in effective predator control solutions, offering services to protect your property and livestock from predators. Experienced, licensed professionals ready to assist.",
+      },
+      {
+        property: "og:type",
+        content: "www.oneshotpredatormgmt.com",
+      },
+      {
+        name: "twitter:card",
+        content: "summary",
+      },
+      {
+        name: "twitter:creator",
+        content: "@YourTwitterHandle",
+      },
+      {
+        name: "twitter:title",
+        content: "Effective Predator Management Solutions | OneShot Predator Management",
+      },
+      {
+        name: "twitter:description",
+        content: "OneShot Predator Management specializes in humane and effective predator control solutions, offering services to protect your property and livestock from predators. Experienced, licensed professionals ready to assist.",
+      },
+    ].concat(meta)}
     />
   )
 }
