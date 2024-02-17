@@ -2,7 +2,7 @@
 title: "Business Automation"
 author: "Techfi Community"
 description: "Streamline your operations and increase efficiency with our custom business automation solutions."
-path: "/services/team-augmentation"
+path: "/services/business-automation"
 FileSection: "Services"
 image: []
 date: "2024-01-31"
