@@ -1,0 +1,123 @@
+.pricing-plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Replace with the font from your design */
+  }
+  
+
+  .plan-border-gradient {
+    border: solid 1px transparent; /* Define a border */
+    border-radius: 0.75rem; /* Your desired border radius */
+    border-image: linear-gradient(to bottom right, black, rgba(0, 0, 0, 0)) 1 / 1px / 0 stretch;
+    /* Explanation: 
+      - Gradient from black to transparent.
+      - '1' defines the 'border-image-slice' which specifies where to slice the image.
+      - '/ 1px' sets the 'border-image-width'.
+      - '/ 0' sets the 'border-image-outset'.
+      - 'stretch' defines the 'border-image-repeat'.
+    */
+  }
+
+  .billing-toggle {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    /* Add more styles for the billing toggle here */
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 10px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .plan {
+    background: #fff; /* Replace with the actual background color from your design */
+    border-radius: 20px; /* Increase the border radius for more curve */
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px); /* Adjust the spacing based on your design */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adjust the shadow to match your design */
+  }
+  
+  .plan h3 {
+    color: #333; /* Replace with the actual color from your design */
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px; /* Adjust size to match your design */
+    color: #333; /* Replace with the actual color from your design */
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+    color: green; /* Replace with the actual color from your design */
+  }
+  
+ 
+  

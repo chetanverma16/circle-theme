@@ -1,66 +1,85 @@
-import React, { useState } from "react";
-import Fade from "react-reveal/Fade";
-import Slider from 'rc-slider';
-import 'rc-slider/assets/index.css'; // Ensure this CSS is imported to style the slider
+import React, { useState }  from 'react';
+import '../../styles/pricingHeader.css'; // Make sure to create a corresponding CSS file for styling
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGem } from '@fortawesome/free-solid-svg-icons';
 
-const PricingHeader = () => {
-  // State to hold the selected number of posts for the premium plan
-  const [numPosts, setNumPosts] = useState(2); // Initial value set to 2
+import 'rc-slider/assets/index.css';
+import Card from './pricingCard';
+import Fade from "react-reveal/Fade"
+
+
+const PricingPlan = () => {
+  const [isYearlyBilling, setIsYearlyBilling] = React.useState(false);
+
+
+
+  const plans = [
+    {
+      name: 'Starter Plan',
+      planIcon: faGem,
+      price: 9.99,
+      yearlyPrice : 99.99,
+      slider: false,
+      extraFeature: false,
+      buttonLabel: 'Get Started',
+      buttonVariant: 'primary'
+    },
+    {
+      name: 'Custom Plan',
+      planIcon: faGem,
+      price: 11.99,
+      yearlyPrice: 109.99,
+      slider: true,
+      extraFeature: true,
+      extraFeatures: ['Custom branding', 'Customer Support', 'Scheduling'],
+      buttonLabel: 'Get Started',
+      buttonVariant: 'primary'
+    },
+    {
+      name: 'Enterprise',
+      planIcon: faGem,
+      price: 'Custom Pricing',
+      yearlyPrice: 'Custom Pricing',
+      slider: false,
+      extraFeature: true,
+      extraFeatures: ['Custom branding', 'Customer Support', 'Scheduling'],
+      buttonLabel: 'Talk to Us',
+      buttonVariant: 'secondary'
+    }
+  ];
+
+
+
+  // This function toggles the billing period between monthly and yearly
+  const toggleBilling = () => {
+    setIsYearlyBilling(!isYearlyBilling);
+  };
 
   return (
-    <div className="max-w-7xl mx-auto mt-10 font-poppins text-white flex flex-col items-center">
-      <Fade bottom>
-        <h1 className="text-6xl font-bold m-5 xxs:text-xl sm:text-4xl lg:text-6xl">
-          Simple, transparent pricing
-        </h1>
-        <h2 className="text-base opacity-50 text-center xxs:text-sm sm:text-lg">
-          Get the Circle plan that fits your needs at a special introductory price.
-        </h2>
-      </Fade>
-      <Fade bottom cascade>
-        <div className="grid grid-cols-2 gap-4 mt-10 xxs:grid-cols-1 sm:grid-cols-2">
-          {/* Essential Plan */}
-          <div className="bg-lightblack p-10 rounded-xl">
-            <h2 className="text-2xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Essential
-            </h2>
-            <h1 className="text-4xl mt-2 font-bold">$49/Mo</h1>
-            <h3 className="text-sm mt-2 opacity-50">
-              Better insights for growing businesses that want more customers.
-            </h3>
-            <ul className="mt-5">
-              <li className="text-sm opacity-70 py-2">1 LinkedIn post</li>
-              <li className="text-sm opacity-70 py-2">1 Twitter post</li>
-              <li className="text-sm opacity-70 py-2">1 Facebook post</li>
-            </ul>
-            <button className="mt-5 px-5 bg-gradient-to-r from-pink to-purple p-2">
-              Start Free Trial
-            </button>
-          </div>
-          {/* Premium Plan */}
-          <div className="bg-lightblack p-10 rounded-xl">
-            <h2 className="text-2xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Premium
-            </h2>
-            <h1 className="text-4xl mt-2 font-bold">$79/Mo</h1>
-            <h3 className="text-sm mt-2 opacity-50">
-              Everything in Essential, plus more advanced features.
-            </h3>
-            {/* Slider to select the number of posts */}
-            <Slider min={2} max={10} defaultValue={2} onChange={setNumPosts} />
-            <ul className="mt-5">
-              <li className="text-sm opacity-70 py-2">{numPosts} LinkedIn posts</li>
-              <li className="text-sm opacity-70 py-2">{numPosts} Twitter posts</li>
-              <li className="text-sm opacity-70 py-2">{numPosts} Facebook posts</li>
-            </ul>
-            <button className="mt-5 px-5 bg-gradient-to-r from-pink to-purple p-2">
-              Start Free Trial
-            </button>
-          </div>
-        </div>
-      </Fade>
+  <div className="flex flex-col items-center font-sans bg-black text-white py-12">
+  <div className="flex items-center mb-6">
+      <span>Billed Monthly</span>
+      <label className="switch relative inline-block w-14 h-8 mx-2 align-middle">
+        <input
+          type="checkbox"
+          className="sr-only"
+          checked={isYearlyBilling}
+          onChange={toggleBilling}
+        />
+        <span className={`absolute left-0 right-0 block w-14 h-8 transition duration-300 ease-in-out rounded-full ${isYearlyBilling ? 'bg-green-500' : 'bg-gray-300'}`}></span>
+        <span className={`dot absolute top-1 bg-white w-6 h-6 rounded-full shadow transition-transform duration-300 ease-in-out ${isYearlyBilling ? 'translate-x-6' : 'translate-x-1'}`}></span>
+
+    </label>
+      <span>Billed Annually</span>
+  </div>
+  <div className="flex justify-center w-full px-4 ">
+    {plans.map((plan, index) => (
+      <Card key={plan.id} plan={plan} isYearlyBilling={isYearlyBilling} index={index} />
+    ))}
     </div>
+  </div>
   );
 };
 
-export default PricingHeader;
+export default PricingPlan;
