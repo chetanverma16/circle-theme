@@ -40,10 +40,10 @@ const Footer = () => {
               <a href="https://twitter.com/techficorp" target="_blank" rel="noopener noreferrer">
                 <img src={TwitterIcon} alt="Twitter" className="w-12 h-12" />
               </a>
-              <a href="www.linkedin.com/company/techfica" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/techfica" target="_blank" rel="noopener noreferrer">
                 <img src={LinkedInIcon} alt="LinkedIn" className="w-12 h-12" />
               </a>
-              <a href="www.instagram.com/techficorp" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/techficorp/" target="_blank" rel="noopener noreferrer">
                 <img src={InstagramIcon} alt="Instagram" className="w-12 h-12" />
               </a>
             </div>
@@ -114,10 +114,10 @@ const Footer = () => {
           <a href="https://twitter.com/techficorp" target="_blank" rel="noopener noreferrer">
             <img src={TwitterIcon} alt="Twitter" className="w-12 h-12" />
           </a>
-          <a href="www.linkedin.com/company/techfica" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/techfica" target="_blank" rel="noopener noreferrer">
             <img src={LinkedInIcon} alt="LinkedIn" className="w-12 h-12" />
           </a>
-          <a href="www.instagram.com/techficorp" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/techficorp/" target="_blank" rel="noopener noreferrer">
             <img src={InstagramIcon} alt="Instagram" className="w-12 h-12" />
           </a>
         </div>
