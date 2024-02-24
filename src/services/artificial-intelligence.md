@@ -7,7 +7,10 @@ subtitle: "Unveiling the intricate process of AI-powered chatbots."
 description: "Harness the power of AI to transform your business operations and unlock new opportunities."
 path: "/services/artificial-intelligence"
 FileSection: "Services"
-image: []
+image:
+  [
+    "../images/services.png"
+  ]
 ---
 
 

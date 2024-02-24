@@ -4,7 +4,10 @@ author: "Techfi Community"
 description: "Elevate your brand identity and connect with your audience through our comprehensive digital branding services."
 path: "/services/digital-branding"
 FileSection: "Services"
-image: []
+image:
+  [
+    "../images/services.png"
+  ]
 date: "2024-01-31"
 humanDate: "January 31, 2024"
 subtitle: "Unveiling the intricate process of AI-powered chatbots."

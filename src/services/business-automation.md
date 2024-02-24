@@ -4,7 +4,10 @@ author: "Techfi Community"
 description: "Streamline your operations and increase efficiency with our custom business automation solutions."
 path: "/services/business-automation"
 FileSection: "Services"
-image: []
+image:
+  [
+    "../images/services.png"
+  ]
 date: "2024-01-31"
 humanDate: "January 31, 2024"
 subtitle: "Unveiling the intricate process of AI-powered chatbots."

@@ -4,7 +4,10 @@ author: "Techfi Community"
 description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
 path: "/services/web-mobile-development"
 FileSection: "Services"
-image: []
+image:
+  [
+    "../images/services.png"
+  ]
 date: "2024-01-31"
 humanDate: "January 31, 2024"
 subtitle: "Unveiling the intricate process of AI-powered chatbots."

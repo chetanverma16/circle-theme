@@ -13,6 +13,7 @@ module.exports = {
       black: colors.black,
       purple: "#a18cd1",
       pink: "#FBC2EB",
+      brightpink: "#9E1F9D",
       lightBlue: colors.blue,
       white: colors.white,
       lightblack: "#141414",
@@ -35,7 +36,7 @@ module.exports = {
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1536px",
+      xxl: "1536px",
       // => @media (min-width: 1536px) { ... }
     },
   },

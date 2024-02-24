@@ -4,7 +4,10 @@ author: "Techfi Community"
 description: "Expert IT consulting and audit services to ensure your technology aligns with your business goals."
 path: "/services/audit-it-consulting"
 FileSection: "Services"
-image: []
+image:
+  [
+    "../images/services.png"
+  ]
 date: "2024-01-31"
 humanDate: "January 31, 2024"
 subtitle: "Unveiling the intricate process of AI-powered chatbots."
