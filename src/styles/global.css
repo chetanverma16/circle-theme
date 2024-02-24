@@ -240,23 +240,19 @@
   }
 }
 
+/* This is the techSection slider. */
+@keyframes slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-77%); } /* This ensures that the animation loops back after all of the content has scrolled. */
+}
+
 .infinite-scroll {
   display: flex;
-  animation: slide 10s linear infinite;
+  animation: slide 15s linear infinite;
 }
 
-.infinite-scroll::after {
-  content: "";
-  display: flex;
-  animation: slide 10s linear infinite;
-  animation-delay: 5s;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+.servicesBg {
+background: linear-gradient(103.36deg, #9E1F9D 0%, #5B055A 100%); 
+padding-top: var(--navbar-height); 
+min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+} 

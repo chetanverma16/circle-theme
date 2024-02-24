@@ -24,6 +24,14 @@ const TechSection = () => {
               <img src={Reactjs} className="py-1 h-24 object-contain opacity-90" alt="React" />
               <img src={django} className="py-1 h-24 object-contain opacity-90" alt="Django" />
               <img src={Swift} className="py-1 h-24 object-contain opacity-90" alt="Swift" />
+              <img src={Angular} className="py-1 h-24 object-contain opacity-90" alt="Angular" />
+              <img src={Aws} className="py-1 h-24 object-contain opacity-90" alt="Aws" />
+              <img src={Cloud} className="py-1 h-24 object-contain opacity-90" alt="Cloud" />
+              <img src={Nodejs} className="py-1 h-24 object-contain opacity-90" alt="Nodejs" />
+              <img src={ReactNative} className="py-1 h-24 object-contain opacity-90" alt="React Native" />
+              <img src={Reactjs} className="py-1 h-24 object-contain opacity-90" alt="React" />
+              <img src={django} className="py-1 h-24 object-contain opacity-90" alt="Django" />
+              <img src={Swift} className="py-1 h-24 object-contain opacity-90" alt="Swift" />
             </React.Fragment>
           ))}
         </div>
