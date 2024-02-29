@@ -1,0 +1,296 @@
+plan-border-gradient {
+    border-image: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0)) 1;
+    border-image-slice: 1;
+    border-radius: 0.75rem;
+  }
+  
+    .billing-toggle {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      /* Add more styles for the billing toggle here */
+    }
+    
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin: 0 10px;
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+    
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    
+    .plans {
+      display: flex;
+      justify-content: center;
+      /* Add styling for responsiveness if needed */
+    }
+    
+    .plan {
+      background: #fff; /* Replace with the actual background color from your design */
+      border-radius: 20px; /* Increase the border radius for more curve */
+      padding: 20px;
+      margin: 10px;
+      flex-basis: calc(33.333% - 20px); /* Adjust the spacing based on your design */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adjust the shadow to match your design */
+    }
+    
+    .plan h3 {
+      color: #333; /* Replace with the actual color from your design */
+      margin-bottom: 10px;
+    }
+    
+    .price {
+      font-size: 24px; /* Adjust size to match your design */
+      color: #333; /* Replace with the actual color from your design */
+      margin-bottom: 20px;
+    }
+    
+    .features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    .features li {
+      margin-bottom: 10px;
+      color: green; /* Replace with the actual color from your design */
+    }
+    
+    .btn {
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    
+    .btn.primary {
+      background-color: #4CAF50; /* Replace with the actual button color from your design */
+    }
+    
+    .btn.primary:hover {
+      background-color: #45a049;
+    }
+    
+    .btn.secondary {
+      background-color: #008CBA; /* Replace with the actual button color from your design */
+    }
+    
+    .btn.secondary:hover {
+      background-color: #30a5ff;
+    }
+    
+  .pricing-plan-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Arial', sans-serif; /* Replace with the font from your design */
+    }
+    
+  
+    /* Add this custom CSS to your styles.css file, which is included in your Tailwind build */
+  .plan-border-gradient {
+    border-image: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0)) 1;
+    border-image-slice: 1;
+    border-radius: 0.75rem;
+  }
+  
+    .billing-toggle {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      /* Add more styles for the billing toggle here */
+    }
+    
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin: 0 10px;
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+    
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    
+    .plans {
+      display: flex;
+      justify-content: center;
+      /* Add styling for responsiveness if needed */
+    }
+    
+    .plan {
+      background: #fff; /* Replace with the actual background color from your design */
+      border-radius: 20px; /* Increase the border radius for more curve */
+      padding: 20px;
+      margin: 10px;
+      flex-basis: calc(33.333% - 20px); /* Adjust the spacing based on your design */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adjust the shadow to match your design */
+    }
+    
+    .plan h3 {
+      color: #333; /* Replace with the actual color from your design */
+      margin-bottom: 10px;
+    }
+    
+    .price {
+      font-size: 24px; /* Adjust size to match your design */
+      color: #333; /* Replace with the actual color from your design */
+      margin-bottom: 20px;
+    }
+    
+    .features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    .features li {
+      margin-bottom: 10px;
+      color: green; /* Replace with the actual color from your design */
+    }
+    
+    .btn {
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    
+    .btn.primary {
+      background-color: #4CAF50; /* Replace with the actual button color from your design */
+    }
+    
+    .btn.primary:hover {
+      background-color: #45a049;
+    }
+    
+    .btn.secondary {
+      background-color: #008CBA; /* Replace with the actual button color from your design */
+    }
+    
+    .btn.secondary:hover {
+      background-color: #30a5ff;
+    }
+
+    /* CustomSlider.css */
+    .rc-slider-track {
+      background-color: #4f46e5; /* Tailwind's indigo-500 */
+      height: 4px;
+    }
+
+    .rc-slider-handle {
+      border: solid 2px #4338ca; /* Tailwind's indigo-700 for border */
+      height: 16px;
+      width: 16px;
+      margin-top: -6px; /* Adjust based on the slider's height to center */
+      background-color: #a5b4fc; /* Tailwind's indigo-300 */
+    }
+
+    .rc-slider-dot {
+      border-color: #4338ca; /* Tailwind's indigo-700 */
+    }
