@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import "../styles/global.css"
 import Fade from "react-reveal/Fade"
+import featureConfig from "../constants/servicesFeature.json";
+import sectionConfig from "../constants/servicesSection.json";
 
 export default function ServiceTemplate({ data }) {
   const { markdownRemark: post } = data;
@@ -15,65 +17,52 @@ export default function ServiceTemplate({ data }) {
     return acc;
   }, [[], []]).map(part => part.join(' '));
 
-  const featureSectionData = [
-    {
-      path: "/services/artificial-intelligence",
-      title: "Artificial Intelligence",
-      description: "We help you build, accelerate, and launch new AI-powered products and services.",
-      icons: [
-        {iconTitle: "Build", text:"Build new stuff with our stuff. Pleased and", icon: "ai.svg"},
-        {iconTitle: "Accelerate", text:"Build new stuff with our stuff. Pleased and", icon: "machine-learning.svg"},
-        {iconTitle: "Launch", text:"Build new stuff with our stuff. Pleased and", icon: "deep-learning.svg"},
-      ]
-    }
-  ]
-
   return (
     <Layout>
-      <div className="servicesBg">
+      <div className="services-bg">
         <section className="pt-20 pb-20">
           <div className="container mx-auto max-w-7xl px-4 lg:px-8">
             <div className="flex flex-col lg:flex-row justify-between items-stretch gap-12">
               <div className="lg:w-1/2 flex flex-col justify-between text-white">
                 <div>
-                  {/* Adjusted "Service" text for size and transparency */}
                   <h2 className="text-2xl mb-4 font-bold uppercase text-white opacity-75">Service</h2>
-                  {/* Responsive and larger title */}
                   <h1 className="font-bold mb-6">
-                    <div className="text-4xl md:text-6xl lg:text-8xl">{titleFirstPart}</div>
-                    <div className="mt-4 text-4xl md:text-6xl lg:text-8xl">{titleSecondPart}</div>
+                    <div className="text-4xl xxs:text-5xl xs:text-6xl sm:text-7xl xl:text-8xl">{titleFirstPart}</div>
+                    <div className="mt-4 text-4xl xxs:text-5xl xs:text-6xl sm:text-7xl xl:text-8xl">{titleSecondPart}</div>
                   </h1>
+                  {/* Image for smaller screens. Hidden otherwise. */}
+                  <div className="lg:hidden">
+                  <img src={imageUrl} alt={post.frontmatter.title} className="object-cover self-end" style={{ maxHeight: '600px' }} />
+                  </div>
                   <p className="mb-8">{post.frontmatter.description}</p>
                 </div>
-                <div>
+                <div className="flex flex-col lg:flex-row gap-4 mb-8"  style={{ maxWidth: '640px' }} >
                   <button
                     onClick={() => {
                       if (typeof window !== "undefined") {
                         window.location.href = '/contact';
                       }
                     }}
-                    className="px-24 py-5 bg-brightpink text-white font-semibold text-lg rounded-xl transition transform hover:scale-105 mb-4">
+                    className="services-button px-24 py-4 mb-4">
                     Contact Us
                   </button>
                 </div>
               </div>
-              <div className="lg:w-1/2 flex justify-center lg:justify-end">
+              <div className="hidden lg:w-1/2 lg:flex justify-center lg:justify-end">
                 <img src={imageUrl} alt={post.frontmatter.title} className="object-cover self-end" style={{ maxHeight: '600px' }} />
               </div>
             </div>
           </div>
         </section>
       </div>
-      {/* Populate the featureSectionData here according to path if it matches the condition. */}
          {/* Feature section data population */}
-         {featureSectionData.map((feature) => {
-          console.log(feature.path,"Arda");
-          console.log(data,"Arda");
+         {featureConfig.featureSectionData.map((feature) => {
           if (feature.path == data.markdownRemark.frontmatter.path) {
             return (
-              <div key={feature.title} className="mt-20 px-4 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="mt-8 m-4">
                 <Fade bottom cascade>
-                  <div className="flex flex-col gap-3">
+                  <div className="flex flex-col gap-3 mt-20">
                     <h1 className="text-white font-bold text-5xl sm:text-5xl lg:text-7xl">
                       How we can help you
                     </h1>
@@ -83,33 +72,76 @@ export default function ServiceTemplate({ data }) {
                   </div>
                 </Fade>
                 <Fade bottom cascade>
-                  <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {feature.icons.map((icon) => {
                       return (
-                        <div key={icon.iconTitle} className="flex flex-col gap-3">
-                          <div className="flex justify-center">
+                        <div key={icon.iconTitle} className="bg-lightblack p-8 rounded-xl service-card">
+                          <div className="flex items-center justify-start mb-2">
                             <img
                               src={`/icons/${icon.icon}`}
                               alt={icon.iconTitle}
-                              className="h-20 w-20 object-contain"
+                              className="w-9 mr-3"
                             />
+                            <h3 className="text-white text-2xl align-middle">{icon.iconTitle}</h3>
                           </div>
-                          <h3 className="text-white font-bold text-2xl">{icon.iconTitle}</h3>
-                          <p className="text-white text-lg opacity-50">{icon.text}</p>
+                          <p className="mt-5 text-white text-lg opacity-50">{icon.text}</p>
                         </div>
                       );
                     })}
                   </div>
                 </Fade>
+                </div>
               </div>
             );
           }
         }
-        )}    
+        )}
+
+      {/* "Why Techfi?" section data population */}
+      {sectionConfig.servicesSectionData.map((section) => {
+        if (section.path == data.markdownRemark.frontmatter.path) {
+          return (
+            <div className="max-w-7xl mx-auto">
+              <div className="mt-8 m-4">
+              <div className="flex flex-col gap-3 mt-20">
+                <h1 className="text-white font-bold text-5xl sm:text-5xl lg:text-7xl">
+                  Why Techfi?
+                </h1>
+                <h2 className="text-white text-xl mt-6 opacity-50">
+                  Why us when there are so many other options?
+                </h2>
+              </div>
+      
+              <Fade bottom cascade>
+                <div className="mt-10 mb-32 px-0 mx-0 grid grid-cols-1 md:grid-cols-2 gap-5">
+                  {section.icons.map((icon) => {
+                          return (
+                  <div className="p-8 service-card">
+                      <img
+                      src={`/icons/${icon.icon}`}
+                      alt={icon.iconTitle}
+                      className="w-14 pb-5"
+                      />                    
+                    <h1 className="text-white text-2xl font-semibold">
+                      {icon.iconTitle}
+                    </h1>
+                    <p className="mt-5 text-white opacity-50 text-lg">
+                      {icon.text}
+                    </p>
+                  </div>
+                    );
+                  })}
+                </div>
+              </Fade>
+            </div>
+          </div>  
+            );
+          }
+        }
+        )}
     </Layout>
   );
 }
-
 
 export const query = graphql`
   query($id: String!) {

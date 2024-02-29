@@ -53,7 +53,7 @@ const FeatureSection = () => {
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
                 <img src={Ai} className="w-12 mr-3"></img>
-                <h1 className="text-white text-2xl align-middle ">
+                <h1 className="text-white text-2xl align-middle">
                   Artificial Intelligence
                 </h1>
               </div>
@@ -133,10 +133,8 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="flex justify-between items-center mt-8">
           {" "}
-          {/* Reduced margin to close the gap */}
           <div className="grid px-8 md:px-0 md:grid-cols-2 gap-12 lg:gap-60">
             {" "}
-            {/* Adjusted padding for alignment */}
             <div className="md:p-8 rounded-lg service-card group hover:transform-none button">
               <a href="https://youtubeanalyzer.tech/" target="_Blank">
                 <img
@@ -173,7 +171,7 @@ const FeatureSection = () => {
 
         <Fade bottom cascade>
           <div className="mt-10 mb-32 px-0 mx-0 grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="p-8 service-card ">
+            <div className="p-8 service-card">
               <img src={Innovation} alt="reason" className="w-14 pb-5" />
               <h1 className="text-white text-2xl font-semibold">
                 Innovation at the Forefront

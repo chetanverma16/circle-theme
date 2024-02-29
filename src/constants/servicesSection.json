@@ -1,0 +1,64 @@
+{
+    "servicesSectionData": [
+        {
+            "path": "/services/artificial-intelligence",
+            "title": "Artificial Intelligence",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        },
+        {
+            "path": "/services/business-automation",
+            "title": "Business Automation",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        },
+        {
+            "path": "/services/web-mobile-development",
+            "title": "Web and Mobile Development",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        },
+        {
+            "path": "/services/audit-it-consulting",
+            "title": "Audit & IT Consulting",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        },
+        {
+            "path": "/services/ar-vr",
+            "title": "AR & VR",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        },
+        {
+            "path": "/services/digital-branding",
+            "title": "Digital Branding",
+            "icons": [
+                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
+                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
+                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
+                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+            ]
+        }
+    ]
+}

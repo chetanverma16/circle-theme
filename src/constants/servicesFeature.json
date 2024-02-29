@@ -1,0 +1,58 @@
+{
+"featureSectionData": [
+    {
+        "path": "/services/artificial-intelligence",
+        "title": "Artificial Intelligence",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff. Build new stuff with our stuff. Pleased and Build new stuff with our stuff. Pleased and Build new stuff with our stuff. Pleased and", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    },
+    {
+        "path": "/services/business-automation",
+        "title": "Business Automation",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff. Pleased and", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    },
+    {
+        "path": "/services/web-mobile-development",
+        "title": "Web and Mobile Development",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    },
+    {
+        "path": "/services/audit-it-consulting",
+        "title": "Audit & IT Consulting",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    },
+    {
+        "path": "/services/ar-vr",
+        "title": "AR & VR",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    },
+    {
+        "path": "/services/digital-branding",
+        "title": "Digital Branding",
+        "icons": [
+            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
+            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+        ]
+    }
+]
+}

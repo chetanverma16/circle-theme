@@ -251,8 +251,25 @@
   animation: slide 15s linear infinite;
 }
 
-.servicesBg {
+.services-bg {
 background: linear-gradient(103.36deg, #9E1F9D 0%, #5B055A 100%); 
 padding-top: var(--navbar-height); 
 min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
-} 
+}
+
+.services-button {
+  background: #F8DDF8;
+  border-radius: 5px;
+  border: 1px solid #1F041F;  
+  color: #1F041F;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* hover */
+  &:hover {
+    font-weight: 600;
+    transform: scale(1.02);
+  }
+}
