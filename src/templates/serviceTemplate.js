@@ -64,10 +64,10 @@ export default function ServiceTemplate({ data }) {
                 <Fade bottom cascade>
                   <div className="flex flex-col gap-3 mt-20">
                     <h1 className="text-white font-bold text-5xl sm:text-5xl lg:text-7xl">
-                      How we can help you
+                      Elevating Your Success with Techfi
                     </h1>
                     <h2 className="text-white text-xl mt-6 opacity-50">
-                      Unleashing Potential with Tailored IT Solutions
+                      Unleashing the Power of Customized Tech Solutions
                     </h2>
                   </div>
                 </Fade>
@@ -104,12 +104,13 @@ export default function ServiceTemplate({ data }) {
             <div className="max-w-7xl mx-auto">
               <div className="mt-8 m-4">
               <div className="flex flex-col gap-3 mt-20">
-                <h1 className="text-white font-bold text-5xl sm:text-5xl lg:text-7xl">
-                  Why Techfi?
-                </h1>
-                <h2 className="text-white text-xl mt-6 opacity-50">
-                  Why us when there are so many other options?
-                </h2>
+              <h1 className="text-white font-bold text-5xl sm:text-5xl lg:text-7xl">
+                Discover the Techfi Difference
+              </h1>
+              <h2 className="text-white text-xl mt-6 opacity-50">
+                Explore why Techfi is your preferred choice amid a sea of alternatives.
+              </h2>
+
               </div>
       
               <Fade bottom cascade>

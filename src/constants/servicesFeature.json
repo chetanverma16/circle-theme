@@ -4,9 +4,9 @@
         "path": "/services/artificial-intelligence",
         "title": "Artificial Intelligence",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff. Build new stuff with our stuff. Pleased and Build new stuff with our stuff. Pleased and Build new stuff with our stuff. Pleased and", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "AI Solution Development", "text": "Tailored, industry-specific AI strategies to overcome your business challenges.", "icon": "build.svg"},
+            {"iconTitle": "Custom AI Applications", "text": "Unique applications designed to elevate your market presence.", "icon": "accelerate.svg"},
+            {"iconTitle": "AI Integration Services", "text": "Enhance your systems with AI to boost efficiency and innovation.", "icon": "launch.svg"}
         ]
     },
     {
