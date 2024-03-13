@@ -1,7 +1,7 @@
 ---
 title: "Digital Branding"
 author: "Techfi Community"
-description: "Elevate your brand identity and connect with your audience through our comprehensive digital branding services."
+description: "Elevate your digital identity and audience connection with strategic branding."
 path: "/services/digital-branding"
 FileSection: "Services"
 image:

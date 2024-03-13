@@ -1,7 +1,7 @@
 ---
 title: "Audit & IT Consulting"
 author: "Techfi Community"
-description: "Expert IT consulting and audit services to ensure your technology aligns with your business goals."
+description: "Align technology with business goals through expert IT consulting and audits."
 path: "/services/audit-it-consulting"
 FileSection: "Services"
 image:

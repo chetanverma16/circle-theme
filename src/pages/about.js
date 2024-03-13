@@ -11,7 +11,7 @@ const About = () => {
     <Layout>
       <AboutHeader></AboutHeader>
       <AboutMore></AboutMore>
-      <AboutTeamBigCard></AboutTeamBigCard>
+      {/* <AboutTeamBigCard></AboutTeamBigCard> */}
       <AboutGrid></AboutGrid>
     </Layout>
   )

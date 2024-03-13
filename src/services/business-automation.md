@@ -1,7 +1,7 @@
 ---
 title: "Business Automation"
 author: "Techfi Community"
-description: "Streamline your operations and increase efficiency with our custom business automation solutions."
+description: "Boost efficiency and growth with our customized automation and AI integration."
 path: "/services/business-automation"
 FileSection: "Services"
 image:

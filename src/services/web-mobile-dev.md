@@ -1,7 +1,7 @@
 ---
 title: "Web and Mobile Development"
 author: "Techfi Community"
-description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
+description: "Engage your audience with tailor-made web and mobile experiences."
 path: "/services/web-mobile-development"
 FileSection: "Services"
 image:

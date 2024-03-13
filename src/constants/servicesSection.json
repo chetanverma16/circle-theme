@@ -4,60 +4,60 @@
             "path": "/services/artificial-intelligence",
             "title": "Artificial Intelligence",
             "icons": [
-                {"iconTitle": "Experienced AI Experts", "text": "Our team's deep knowledge ensures your project's success.", "icon": "innovation.svg"},
-                {"iconTitle": "Cutting-edge AI Technologies", "text": "From Machine Learning to Deep Learning, we're at the innovation forefront.", "icon": "customer.svg"},
+                {"iconTitle": "Experienced AI Experts", "text": "Our experts master the newest AI tech, promising your success.", "icon": "innovation.svg"},
+                {"iconTitle": "Cutting-edge AI Technologies", "text": "Utilizing the latest GPT models for forefront AI solutions.", "icon": "customer.svg"},
                 {"iconTitle": "Tailored AI Solutions", "text": "Precisely crafted to meet your business needs.", "icon": "tailor.svg"},
-                {"iconTitle": "Proven AI Success Stories", "text": "Our portfolio of transformative AI implementations speaks volumes.", "icon": "talent.svg"}
+                {"iconTitle": "Proven AI Success Stories", "text": "Demonstrated success with impactful AI solutions.", "icon": "talent.svg"}
             ]
         },
         {
             "path": "/services/business-automation",
             "title": "Business Automation",
             "icons": [
-                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
-                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
-                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
-                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+                {"iconTitle": "Seamless Integration", "text": "Merging automation with your business for unmatched productivity and growth", "icon": "innovation.svg"},
+                {"iconTitle": "AI-Enhanced Efficiency", "text": "Leveraging AI to redefine possibilities and boost your business's efficiency.", "icon": "customer.svg"},
+                {"iconTitle": "Customized Solutions", "text": "Tailoring automation to align perfectly with your business needs and goals.", "icon": "tailor.svg"},
+                {"iconTitle": "Growth Engineered", "text": "Fueling your business's growth with strategic automation and innovation.", "icon": "talent.svg"}
             ]
         },
         {
             "path": "/services/web-mobile-development",
             "title": "Web and Mobile Development",
             "icons": [
-                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
-                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
-                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
-                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+                {"iconTitle": "Design to Engage", "text": "Creating visually stunning and user-friendly web and mobile apps from your vision.", "icon": "innovation.svg"},
+                {"iconTitle": "Launch Ready", "text": "From wireframes to the app stores, we bring your apps to life, ensuring they're ready for your audience.", "icon": "customer.svg"},
+                {"iconTitle": "Cloud Power", "text": "Leveraging the cloud for scalable, highly available apps, ready for any user demand.", "icon": "tailor.svg"},
+                {"iconTitle": "Growth Focused", "text": "Engineered for scalability, our apps adapt to your business growth and traffic spikes.", "icon": "talent.svg"}
             ]
         },
         {
             "path": "/services/audit-it-consulting",
             "title": "Audit & IT Consulting",
             "icons": [
-                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
-                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
-                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
-                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+                {"iconTitle": "Complimentary Consultation", "text": "Start with our free consulting to explore tailored solutions for your unique challenges.", "icon": "innovation.svg"},
+                {"iconTitle": "Problem Solving Partnership", "text": "We're here to navigate and solve your IT challenges, turning obstacles into opportunities.", "icon": "customer.svg"},
+                {"iconTitle": "Customized Innovation", "text": "Discover custom solutions that fit precisely, enhancing your operations and propelling growth.", "icon": "tailor.svg"},
+                {"iconTitle": "Excellence in Execution", "text": "Leverage our top-tier tech expertise for solutions that not only meet but exceed expectations.", "icon": "talent.svg"}
             ]
         },
         {
             "path": "/services/ar-vr",
             "title": "AR & VR",
             "icons": [
-                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
-                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
-                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
-                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+                {"iconTitle": "Cutting-Edge Engagement", "text": "Our team excels in the latest AR and VR technologies, crafting immersive experiences tailored to your business.", "icon": "innovation.svg"},
+                {"iconTitle": "Device Mastery", "text": "We harness the power of the newest devices, ensuring your AR/VR solutions are not just innovative but impactful.", "icon": "customer.svg"},
+                {"iconTitle": "Strategic Consultations", "text": "Explore your business needs with our experts to unlock custom AR/VR strategies and solutions.", "icon": "tailor.svg"},
+                {"iconTitle": "Solution Creators", "text": "From consultation to development, we offer end-to-end IT solutions that bring your AR/VR visions to life.", "icon": "talent.svg"}
             ]
         },
         {
             "path": "/services/digital-branding",
             "title": "Digital Branding",
             "icons": [
-                {"iconTitle": "Build", "text": "We don't just keep up; we set the pace. With a keen eye on the horizon, we anticipate and embrace the dynamic changes in technology, ensuring that our solutions are not just current but future-ready.", "icon": "innovation.svg"},
-                {"iconTitle": "Accelerate", "text": "Your goals are our mission. We dive deep into understanding your needs, ensuring that every solution we provide is aligned with your success metrics, making your victory our victory.", "icon": "customer.svg"},
-                {"iconTitle": "Launch", "text": "Like a bespoke suit, our services are crafted to fit your unique needs. We listen, we personalize, we deliver IT solutions that are as individual as your business.", "icon": "tailor.svg"},
-                {"iconTitle": "You do You", "text": "We are a crucible for top-tier tech talent. Our team is not just skilled; they're passionate professionals who thrive on innovation and excellence.", "icon": "talent.svg"}
+                {"iconTitle": "Dynamic Digital Presence", "text": "Craft a vibrant online identity that stands out across all digital platforms.", "icon": "innovation.svg"},
+                {"iconTitle": "Engagement Amplified", "text": "Boost your brand's interaction with content that resonates and engages your target audience.", "icon": "customer.svg"},
+                {"iconTitle": "AI-Powered Insights", "text": "Utilize AI to glean actionable insights, enhancing your strategy and connecting with your audience more effectively.", "icon": "tailor.svg"},
+                {"iconTitle": "Unified Brand Experience", "text": "Ensure a consistent and memorable brand experience across every digital touchpoint.", "icon": "talent.svg"}
             ]
         }
     ]

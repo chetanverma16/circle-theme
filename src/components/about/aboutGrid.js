@@ -12,11 +12,11 @@ const AboutGrid = () => {
     <div className="max-w-7xl mx-auto mt-20 grid grid-cols-3 gap-16 justify-items-center xxs:grid-cols-1 sm:grid-cols-3">
       <AboutTeamCard
         imgSrc={Ozan}
-        position="Ozan, Founder/CEO"
+        position="Ozan, Founder"
       ></AboutTeamCard>
       <AboutTeamCard
         imgSrc={Emin}
-        position="Emin, CHRO"
+        position="Emin, COO"
       ></AboutTeamCard>
       <AboutTeamCard
         imgSrc={Cagdas}
@@ -26,14 +26,14 @@ const AboutGrid = () => {
         imgSrc={Kamyab}
         position="Kamyab, CTO"
       ></AboutTeamCard>
-      <AboutTeamCard
+      {/* <AboutTeamCard
         imgSrc={Nikhil}
         position="Nikhil, CMO"
-      ></AboutTeamCard>
-      <AboutTeamCard
+      ></AboutTeamCard> */}
+      {/* <AboutTeamCard
         imgSrc={Nellie}
         position="Nellie, Finance Journalist"
-      ></AboutTeamCard>
+      ></AboutTeamCard> */}
 
     </div>
   )

@@ -1,7 +1,7 @@
 ---
 title: "AR & VR"
 author: "Techfi Community"
-description: "Create immersive experiences with our AR and VR development services, transforming the way you interact with your customers."
+description: "Offer immersive AR and VR experiences to connect with your customers uniquely."
 path: "/services/ar-vr"
 FileSection: "Services"
 image:

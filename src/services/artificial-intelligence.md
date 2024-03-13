@@ -4,7 +4,7 @@ date: "2024-01-31"
 author: "Techfi Community"
 humanDate: "January 31, 2024"
 subtitle: "Unveiling the intricate process of AI-powered chatbots."
-description: "Harness the power of AI to transform your business operations and unlock new opportunities."
+description: "Empower your business with custom AI solutions for transformative growth."
 path: "/services/artificial-intelligence"
 FileSection: "Services"
 image:

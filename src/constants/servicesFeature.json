@@ -13,45 +13,45 @@
         "path": "/services/business-automation",
         "title": "Business Automation",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff. Pleased and", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "Streamline Success", "text": "Empower your operations with our automation tools, transforming complexity into streamlined efficiency.", "icon": "build.svg"},
+            {"iconTitle": "Efficiency Engineered", "text": "Achieve unparalleled productivity through our bespoke automation solutions, designed for rapid success and scalability.", "icon": "accelerate.svg"},
+            {"iconTitle": "Automation Advantage", "text": "Gain a competitive edge with our strategic automation implementations, ensuring your business launches ahead with confidence.", "icon": "launch.svg"}
         ]
     },
     {
         "path": "/services/web-mobile-development",
         "title": "Web and Mobile Development",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "Design", "text": "Craft stunning, user-centric websites that captivate and engage.", "icon": "build.svg"},
+            {"iconTitle": "Develop", "text": "Build robust, scalable websites with cutting-edge technology.", "icon": "accelerate.svg"},
+            {"iconTitle": "Deploy", "text": "Launch your site with confidence, optimized for performance and reach.", "icon": "launch.svg"}
         ]
     },
     {
         "path": "/services/audit-it-consulting",
         "title": "Audit & IT Consulting",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "Assess", "text": "Identify opportunities and risks with our comprehensive IT audits.", "icon": "build.svg"},
+            {"iconTitle": "Optimize", "text": "Enhance your IT infrastructure for efficiency and resilience.", "icon": "accelerate.svg"},
+            {"iconTitle": "Strategize", "text": "Develop forward-thinking IT strategies that drive business growth.", "icon": "launch.svg"}
         ]
     },
     {
         "path": "/services/ar-vr",
         "title": "AR & VR",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "Immersive Design", "text": "Create captivating experiences with our custom AR and VR designs.", "icon": "build.svg"},
+            {"iconTitle": "Interactive Development", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
+            {"iconTitle": "Deployment & Integration", "text": "Launch and integrate AR/VR technologies seamlessly into your ecosystem.", "icon": "launch.svg"}
         ]
     },
     {
         "path": "/services/digital-branding",
         "title": "Digital Branding",
         "icons": [
-            {"iconTitle": "Build", "text": "Build new stuff with our stuff.", "icon": "build.svg"},
-            {"iconTitle": "Accelerate", "text": "Build new stuff with our stuff. Pleased and", "icon": "accelerate.svg"},
-            {"iconTitle": "Launch", "text": "Build new stuff with our stuff. Pleased and", "icon": "launch.svg"}
+            {"iconTitle": "Brand Identity", "text": "Craft a unique digital identity that resonates with your audience.", "icon": "build.svg"},
+            {"iconTitle": "Online Presence", "text": "Elevate your online visibility with cohesive and compelling branding.", "icon": "accelerate.svg"},
+            {"iconTitle": "Engagement Strategies", "text": "Foster deep connections with strategic digital content and interactions.", "icon": "launch.svg"}
         ]
     }
 ]
