@@ -3,65 +3,65 @@
         {
             "name": "About",
             "link": "/about",
-            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block text-3xl md:text-xl lg:text-2xl font-normal pl-10 py-8 md:pl-0 md:py-0 px-4 navbar-items"
         },
         {
             "name": "Services",
             "link": "/services",
-            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium",
+            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block text-3xl md:text-xl lg:text-2xl font-normal pl-10 pb-8 pt-4 md:pl-0 md:py-0 px-4 navbar-items",
             "subItems": [
                 {
                     "name": "Artificial Intelligence",
                     "description": "Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI Solutions.",
                     "link": "/services/artificial-intelligence",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 },
                 {
                     "name": "Business Automation",
                     "description": "Streamlining your operations with seamless automation, anywhere.",
                     "link": "/services/business-automation",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 },
                 {
                     "name": "Web / Mobile Development",
                     "description": "Precision-engineered software for your industry's needs.",
                     "link": "/services/web-mobile-development",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 },
                 {
                     "name": "Audit & IT Consulting",
                     "description": "Targeted project analysis for informed, strategic IT decisions.",
                     "link": "/services/audit-it-consulting",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 },
                 {
                     "name": "AR & VR",
                     "description": "Beyond Reality, Transforming Experiences with Advanced AR & VR Technologies.",
                     "link": "/services/ar-vr",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 },
                 {
                     "name": "Digital Branding",
                     "description": "Intuitive designs that engage and delight users.",
                     "link": "/services/digital-branding",
-                    "className": "text-gray-300 hover:text-gray-100 px-3 py-2 text-sm font-medium font-poppins"
+                    "className": ""
                 }
             ]
         },
         {
             "name": "Contact",
             "link": "/contact",
-            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block text-3xl md:text-xl lg:text-2xl font-normal pl-10 pb-8 pt-4 md:pl-0 md:py-0 px-4 navbar-items"
         },
         {
             "name": "Blog",
             "link": "/blog",
-            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block text-3xl md:text-xl lg:text-2xl font-normal pl-10 pb-8 pt-4 md:pl-0 md:py-0 px-4 navbar-items"
         },
         {
             "name": "Careers",
             "link": "/careers",
-            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            "className": "text-gray-300 hover:text-gray-100 dark:hover:text-white block text-3xl md:text-xl lg:text-2xl font-normal pl-10 pb-8 pt-4 md:pl-0 md:py-0 px-4 navbar-items"
         }
     ]
 }

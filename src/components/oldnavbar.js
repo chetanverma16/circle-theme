@@ -4,38 +4,32 @@ import logoImg from "../images/logo.svg";
 import navbarConfig from "../constants/navbar.json";
 
 const Navbar = () => {
-  // Temporary fix for subitems always being show in mobile devices. 
-  // Pretty sure this is not the best way to do it and it is pretty buggy when changing the screen size. 
-  // Will rewrite the whole navbar component in the future. For now will only rewrite the subitems part.
-  const isSmallScreen = typeof window !== 'undefined' && window.innerWidth < 768;
-  const initialSubmenusState = navbarConfig.navbarItems.reduce((acc, item, index) => {
-    acc[index] = isSmallScreen; // Open all submenus by default on small screens
-    return acc;
-  }, {});
-
   const [openMenu, setOpenMenu] = useState(false);
-  const [openSubmenus, setOpenSubmenus] = useState(initialSubmenusState);
+  const [openSubmenus, setOpenSubmenus] = useState({});
 
   const toggleSubmenu = (index) => {
-    setOpenSubmenus((prev) => ({
-      ...Object.keys(prev).reduce((acc, key) => ({ ...acc, [key]: false }), {}),
-      [index]: !prev[index],
+    setOpenSubmenus(prev => ({
+        ...Object.keys(prev).reduce((acc, key) => ({ ...acc, [key]: false }), {}),
+        [index]: !prev[index],
     }));
   };
 
   const closeAllSubmenus = () => {
-    setOpenSubmenus((prev) => ({
-      ...Object.keys(prev).reduce((acc, key) => ({ ...acc, [key]: false }), {}),
+    setOpenSubmenus(prev => ({
+        ...Object.keys(prev).reduce((acc, key) => ({ ...acc, [key]: false }), {})
     }));
   };
 
   const renderSubItems = (subItems, index) => (
-    <div className={`sub-menu ${openSubmenus[index] ? 'open' : 'closed'}`} onMouseLeave={() => toggleSubmenu(index)}>
-      {subItems.map((item, subIndex) => (
-        <Link key={subIndex} to={item.link} className={item.className}>
-          {item.name}
-        </Link>
-      ))}
+    <div 
+        className={`sub-menu ${openSubmenus[index] ? "open" : "closed"}`}
+        onMouseLeave={() => toggleSubmenu(index)}
+    >
+        {subItems.map((item, subIndex) => (
+            <Link key={subIndex} to={item.link} className={item.className}>
+                {item.name}
+            </Link>
+        ))}
     </div>
   );
 

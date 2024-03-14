@@ -7,7 +7,7 @@ authorImg: "https://i.postimg.cc/3xs1qKQr/ozan.jpg"
 subtitle: "Unveiling the intricate process of AI-powered Ethics and Governance."
 path: "/blog/ai-ethics"
 FileSection: "Blog"
-image: ["../images/AI Chatbot.png", "../images/AI Chatbot version 2.png"]
+image: ["../images/blogs.jpg"]
 description: "We offer web and mobile development services to help you build a strong online presence and reach your target audience."
 ---
 
@@ -15,7 +15,7 @@ As AI becomes ubiquitous, ensuring its responsible use is a priority. AI ethics 
 
 ---
 
-### What is AI Ethics and Governance
+## What is AI Ethics and Governance
 
 > - **Definition:** This field defines principles, procedures, and frameworks for making AI systems fair, safe, and accountable.
 > - **Examples:** Developing guidelines to mitigate bias in hiring algorithms.
@@ -24,7 +24,7 @@ As AI becomes ubiquitous, ensuring its responsible use is a priority. AI ethics 
 
 ---
 
-### Key Benefits
+## Key Benefits
 
 > - **Building Trust:** Adhering to AI ethics increases public trust in the technology, aiding adoption.
 > - **Avoiding Harm:** Addressing AI ethics issues proactively reduces the risk of negative impacts on individuals or society.
@@ -33,7 +33,7 @@ As AI becomes ubiquitous, ensuring its responsible use is a priority. AI ethics 
 
 ---
 
-### Key Concerns Addressed
+## Key Concerns Addressed
 
 > - **Fairness:** Preventing discrimination and ensuring systems benefit all segments of society. [Link to "Mitigating AI Risks and Biases"]
 >   Accountability: Clarifying responsibility for AI outcomes and building in redress mechanisms.
@@ -46,7 +46,7 @@ As AI becomes ubiquitous, ensuring its responsible use is a priority. AI ethics 
 
 ---
 
-### Considerations
+## Considerations
 
 > - **Evolving Landscape:** AI ethics is a dynamic field; stay updated on trends and principles [Link to "AI Trends and Innovations"].
 > - **Context Matters:** Evaluate ethical implications of AI within the specific domains where it's applied.
@@ -61,11 +61,13 @@ As AI becomes ubiquitous, ensuring its responsible use is a priority. AI ethics 
 
 ---
 
-### Conclusion
+## Conclusion
 
 AI ethics and governance are not limitations; they're critical components for safe, responsible, and sustainable AI use. By proactively integrating ethical considerations, organizations pave the way for impactful and trusted AI applications that benefit everyone.
 Ready to ensure your AI initiatives align with ethical best practices? Let us help – schedule a consultation!
 
-#### Resources
+---
 
-[Techfi](www.techfi.ca)
+### Resources
+
+<span style="text-decoration: underline;">[Techfi](www.techfi.ca)

@@ -19,12 +19,16 @@ const Footer = () => {
             <div className="flex-1 mt-12">
               <h1 className="text-4xl font-bold mb-8">Ready to gain your valuable time?</h1>
               <div className="flex flex-col xs:flex-row gap-4 mb-8">
-                <button className="solid-button">
-                  BOOK A FREE CONSULTATION
-                </button>
-                <button className="ghost-button">
-                  CONTACT US
-                </button>
+                <a
+                  href="https://calendly.com/techfi/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="solid-button w-full sm:w-auto">BOOK A FREE CONSULTATION</button>
+                </a>
+                <Link to="/contact"> 
+                  <button className="ghost-button w-full sm:w-auto">CONTACT US</button>
+                </Link>
               </div>
             </div>
             <div className="md:flex hidden justify-end">

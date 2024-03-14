@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "gatsby";
-import logoImg from "../images/logo.svg";
-import navbarConfig from "../constants/navbar.json";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'gatsby';
+import logoImg from '../images/logo.svg';
+import navbarConfig from '../constants/navbar.json';
 
 const Navbar = () => {
   // Temporary fix for subitems always being show in mobile devices. 
   // Pretty sure this is not the best way to do it and it is pretty buggy when changing the screen size. 
-  // Will rewrite the whole navbar component in the future. For now will only rewrite the subitems part.
+  // Will rewrite the whole navbar component in the future.
   const isSmallScreen = typeof window !== 'undefined' && window.innerWidth < 768;
   const initialSubmenusState = navbarConfig.navbarItems.reduce((acc, item, index) => {
     acc[index] = isSmallScreen; // Open all submenus by default on small screens
@@ -45,10 +45,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <a className="text-white flex-shrink-0 font-poppins" href="/">
-              <img className="w-48 max-h-screen mt-2" src={logoImg} alt="Header"></img>
+              <img className="w-48 xxs:w-56 max-h-screen mt-4" src={logoImg} alt="Header"></img>
             </a>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 flex items-baseline gap-8">
                 {navbarConfig.navbarItems.map((item, index) => (
                   <div className="linkWrapper" key={index}>
                     <Link
@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className="flex md:hidden">
               <button
                 onClick={() => setOpenMenu(!openMenu)}
-                className=""
+                className="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
               >
                 <svg
                   width="20"
@@ -86,7 +86,7 @@ const Navbar = () => {
       </div>
       {openMenu && (
         <div className={`md:hidden ${openMenu ? 'mobileWrapper' : ''}`}> 
-          <div className="flex flex-col items-baseline space-y-4">
+          <div className="flex flex-col items-baseline">
             <button 
               onClick={() => setOpenMenu(false)} 
               className="mobileNavClose"
@@ -94,10 +94,14 @@ const Navbar = () => {
               &#x2715; {/* Unicode for 'x' symbol */}
             </button>
             {navbarConfig.navbarItems.map((item, index) => (
-              <div key={index}>
+              <div key={index} style={{ 
+                borderBottom: index === navbarConfig.navbarItems.length - 1 ? "none" : "1px solid #404040", // Mobile menu border
+                width: "100vw", 
+                marginLeft: `calc(-55vw + 50%)`,
+              }}>
                 <Link
                   to={item.link}
-                  className={item.className}
+                  className={`pl-10 px-24 xs:pl-16 sm:pl-24 text-3xl sm:text-4xl ${item.className}`} // Mobile menu items style
                   onClick={() => item.subItems && toggleSubmenu(index)}
                 >
                   {item.name}
@@ -113,3 +117,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

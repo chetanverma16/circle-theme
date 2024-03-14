@@ -39,8 +39,8 @@
 
   .reset-common-blog-css hr {
     border-width: 0.05rem;
-    margin: 3rem auto !important;
-    opacity: 0.3;
+    margin: 1.5rem auto !important;
+    opacity: 0;
   }
 
   body {
@@ -190,18 +190,19 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  background: rgb(20, 20, 20);
+  background: #0F0F0F;
   border-radius: 5px;
-  /* border: 1px solid rgb(56, 56, 56); */
   z-index: 9999;
 }
 .sub-menu.open > a {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
   text-decoration: none;
   transition: all 0.1s ease-in-out;
-  border-bottom: 1px solid rgb(56, 56, 56);
+  border-bottom: 1px solid #2E2E2E;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 767px) { /* DO NOT KEEP THIS AT 768px! Conflicts with the Tailwind's min-width: 768px, causing a mess exactly at 768px width. */
   /* Add these styles in your CSS file or inside a <style> tag in your component */
   .mobileWrapper {
     position: fixed; /* Fixed position to stay over the content */
@@ -210,11 +211,12 @@
     right: 0;
     bottom: 0;
     z-index: 50; /* Ensure it's above other content */
-    background: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    background: rgba(0, 0, 0); /* Semi-transparent background */
     display: flex;
     flex-direction: column;
     padding-top: 3rem; /* Space for close button */
     padding-left: 10vw;
+    overflow-y: auto; /* Enables vertical scrolling */
   }
 
   .mobileNavClose {
@@ -234,16 +236,33 @@
   }
   .sub-menu.open {
     position: relative;
+    width: 100vw;
+    margin-left: -10vw;
   }
   .sub-menu.open > a {
-    padding: 5px;
+    padding: 2rem 4rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    border-bottom: 1px solid #2E2E2E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C6CE;
+  }
+
+  .navbar-items {
+    border-bottom: 1px solid #404040;
+    width: 100vw;
+    margin-left: -10vw;
   }
 }
 
 /* This is the techSection slider. */
 @keyframes slide {
   from { transform: translateX(0); }
-  to { transform: translateX(-77%); } /* This ensures that the animation loops back after all of the content has scrolled. */
+  to { transform: translateX(-77%); } /* This ensures that the animation loops back after all of the content has scrolled.*/
+  /* High likely needs fine tuning each time new items is added though. */
 }
 
 .infinite-scroll {
@@ -261,7 +280,7 @@ min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
   background: #F8DDF8;
   border-radius: 5px;
   border: 1px solid #1F041F;  
-  color: #1F041F;
+  color: #1F041F; 
   font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 500;
